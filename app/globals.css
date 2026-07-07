@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+html {
+  font-size: 112.5%; /* Boost base font size from 16px to 18px globally */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 106.25%; /* Boost mobile base font-size to 17px */
+  }
+}
+
+body {
+  color: #1A1A1A;
+  background-color: #F5F3EE;
+  line-height: 1.6;
+}
+
+@theme {
+  --font-serif: "Nunito Sans", system-ui, sans-serif;
+  --font-condensed: "Nunito Sans", sans-serif;
+  --font-sans: "Nunito Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  
+  --color-brand-red: #B8001F;
+  --color-brand-black: #1A1A1A;
+  --color-brand-gold: #D4A017;
+  --color-brand-sand: #F5F3EE;
+  --color-brand-nearblack: #111111;
+  --color-brand-muted: #555555; /* Darkened muted text slightly for higher accessibility contrast */
+  --color-brand-border: #E0DDD8;
+  --color-brand-blue: #121215;
+  --color-brand-bluemed: #1E1E22;
+  --color-brand-blueglow: #2C2C33;
+  --color-brand-darksky: #151518;
+  --color-brand-skyaccent: #B8001F;
+  --color-brand-skytext: #D4A017;
+}
+
+/* Custom Scrollbar to match industrial look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #B8001F;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4A017;
+}
+
+/* Utilities for visual elements */
+.industrial-shadow {
+  box-shadow: 6px 6px 0px #1A1A1A;
+}
+
+.industrial-shadow-hover:hover {
+  box-shadow: 8px 8px 0px #B8001F;
+  transform: translate(-2px, -2px);
+  transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.glow-red {
+  text-shadow: 0 0 10px rgba(184, 0, 31, 0.5);
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

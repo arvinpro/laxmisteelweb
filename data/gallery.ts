@@ -1,0 +1,47 @@
+interface GalleryItem {
+  id: string;
+  title: string;
+  image: string;
+}
+
+export const GALLERY_IMAGES: GalleryItem[] = [
+  { id: 'g1', title: 'Gallery Image 1', image: '/assets/company/dccc (1).jpg' },
+  { id: 'g2', title: 'Gallery Image 2', image: '/assets/company/dccc (2).jpg' },
+  { id: 'g3', title: 'Gallery Image 3', image: '/assets/company/dccc (3).jpg' },
+  { id: 'g4', title: 'Gallery Image 4', image: '/assets/company/dccc (4).jpg' },
+  { id: 'g5', title: 'Gallery Image 5', image: '/assets/company/dccc (5).jpg' },
+  { id: 'g6', title: 'Gallery Image 6', image: '/assets/company/dccc (6).jpg' },
+  { id: 'g7', title: 'Gallery Image 7', image: '/assets/company/dccc (7).jpg' },
+  { id: 'g8', title: 'Gallery Image 8', image: '/assets/company/dccc (8).jpg' },
+  { id: 'g9', title: 'Gallery Image 9', image: '/assets/company/dccc (9).jpg' },
+  { id: 'g10', title: 'Gallery Image 10', image: '/assets/company/dccc (10).jpg' },
+  { id: 'g11', title: 'Gallery Image 11', image: '/assets/company/dccc (11).jpg' },
+  { id: 'g12', title: 'Gallery Image 12', image: '/assets/company/dccc (12).jpg' },
+  { id: 'g13', title: 'Gallery Image 13', image: '/assets/company/dccc (13).jpg' },
+  { id: 'g14', title: 'Gallery Image 14', image: '/assets/company/dccc (14).jpg' },
+  { id: 'g15', title: 'Gallery Image 15', image: '/assets/company/dccc (15).jpg' },
+  { id: 'g16', title: 'Gallery Image 16', image: '/assets/company/dccc (16).jpg' },
+  { id: 'g17', title: 'Gallery Image 17', image: '/assets/company/dccc (17).jpg' },
+  { id: 'g18', title: 'Gallery Image 18', image: '/assets/company/dccc (18).jpg' },
+  { id: 'g19', title: 'Gallery Image 19', image: '/assets/company/dccc (19).jpg' },
+  { id: 'g20', title: 'Gallery Image 20', image: '/assets/company/dccc (20).jpg' },
+  { id: 'g21', title: 'Gallery Image 21', image: '/assets/company/dccc (21).jpg' },
+  { id: 'g22', title: 'Gallery Image 22', image: '/assets/company/dccc (22).jpg' },
+  { id: 'g23', title: 'Gallery Image 23', image: '/assets/company/dccc (23).jpg' },
+  { id: 'g24', title: 'Gallery Image 24', image: '/assets/company/dccc (24).jpg' },
+  { id: 'g25', title: 'Gallery Image 25', image: '/assets/company/dccc (25).jpg' },
+  { id: 'g26', title: 'Gallery Image 26', image: '/assets/company/dccc (26).jpg' },
+  { id: 'g27', title: 'Gallery Image 27', image: '/assets/company/dccc (27).jpg' },
+  { id: 'g28', title: 'Gallery Image 28', image: '/assets/company/dccc (28).jpg' },
+  { id: 'g29', title: 'Gallery Image 29', image: '/assets/company/dccc (29).jpg' },
+  { id: 'g30', title: 'Gallery Image 30', image: '/assets/company/dccc (30).jpg' },
+  { id: 'g31', title: 'Gallery Image 31', image: '/assets/company/dccc (31).jpg' },
+  { id: 'g32', title: 'Gallery Image 32', image: '/assets/company/dccc (32).jpg' },
+  { id: 'g33', title: 'Gallery Image 33', image: '/assets/company/dccc (33).jpg' },
+  { id: 'g34', title: 'Gallery Image 34', image: '/assets/company/dccc (34).jpg' },
+  { id: 'g35', title: 'Gallery Image 35', image: '/assets/company/dccc (35).jpg' },
+  { id: 'g36', title: 'Gallery Image 36', image: '/assets/company/dccc (36).jpg' },
+  { id: 'g37', title: 'Gallery Image 37', image: '/assets/company/dccc (37).jpg' },
+  { id: 'g38', title: 'Gallery Image 38', image: '/assets/company/dccc (38).jpg' },
+  { id: 'g39', title: 'Gallery Image 39', image: '/assets/company/dccc (39).jpg' },
+];
