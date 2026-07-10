@@ -84,13 +84,13 @@ function CSRActivities() {
         id="csr-activities-portfolio"
       >
         <div className="space-y-2 text-center max-w-3xl mx-auto mb-10">
-          <span className="font-mono tracking-[0.25em] text-[10px] uppercase font-bold text-[#8F9E75] block">
+          <span className="font-mono tracking-[0.25em] text-sm uppercase font-bold text-[#8F9E75] block">
             VERIFIED STATUTORY CSR ARCHIVES
           </span>
           <h2 className="font-serif text-2xl sm:text-3xl font-black text-brand-black tracking-tight uppercase">
             CSR Activity Registry & Showcase
           </h2>
-          <p className="text-xs text-brand-muted max-w-xl mx-auto leading-relaxed">
+          <p className="text-base text-brand-muted max-w-xl mx-auto leading-relaxed">
             A comprehensive, transparent log of social works executed directly
             by Laxmi Steels Limited. Expand, search, or toggle the layout
             formats to audit our local work.
@@ -109,20 +109,20 @@ function CSRActivities() {
               value={registrySearch}
               onChange={(e) => setRegistrySearch(e.target.value)}
               placeholder="Search by activity, location, or remarks..."
-              className="w-full text-xs bg-brand-sand/30 pl-10 pr-4 py-2 borders border-brand-border/80 focus:border-[#8F9E75] focus:ring-1 focus:ring-[#8F9E75] outline-none rounded-xs placeholder-brand-muted text-brand-black"
+              className="w-full text-sm bg-brand-sand/30 pl-10 pr-4 py-2 borders border-brand-border/80 focus:border-[#8F9E75] focus:ring-1 focus:ring-[#8F9E75] outline-none rounded-xs placeholder-brand-muted text-brand-black"
             />
           </div>
 
           {/* Format switches */}
           <div className="flex items-center justify-between md:justify-end gap-3 shrink-0">
-            <span className="text-[9px] font-mono uppercase tracking-wider text-stone-500 font-bold block">
+            <span className="text-[12px] font-mono uppercase tracking-wider text-stone-500 font-bold block">
               Format Toggle:
             </span>
             <div className="inline-flex rounded-xs border border-brand-border/80 p-0.5 bg-brand-sand/20">
               <button
                 type="button"
                 onClick={() => setRegistryView("grid")}
-                className={`px-3 py-1.5 flex items-center gap-1.5 text-[10px] font-mono uppercase font-bold tracking-wider rounded-xs cursor-pointer focus:outline-none transition-all ${
+                className={`px-3 py-1.5 flex items-center gap-1.5 text-[14px] font-mono uppercase font-bold tracking-wider rounded-xs cursor-pointer focus:outline-none transition-all ${
                   registryView === "grid"
                     ? "bg-white text-[#8F9E75] shadow-xs border border-brand-border/40"
                     : "text-stone-500 hover:text-brand-black"
@@ -134,7 +134,7 @@ function CSRActivities() {
               <button
                 type="button"
                 onClick={() => setRegistryView("table")}
-                className={`px-3 py-1.5 flex items-center gap-1.5 text-[10px] font-mono uppercase font-bold tracking-wider rounded-xs cursor-pointer focus:outline-none transition-all ${
+                className={`px-3 py-1.5 flex items-center gap-1.5 text-[14px] font-mono uppercase font-bold tracking-wider rounded-xs cursor-pointer focus:outline-none transition-all ${
                   registryView === "table"
                     ? "bg-white text-[#8F9E75] shadow-xs border border-brand-border/40"
                     : "text-stone-500 hover:text-brand-black"
@@ -154,7 +154,7 @@ function CSRActivities() {
               key={cat}
               type="button"
               onClick={() => setRegistryCategory(cat)}
-              className={`px-3 py-1.5 text-[9px] font-sans font-bold uppercase tracking-wider border rounded-xs cursor-pointer focus:outline-none transition-all ${
+              className={`px-3 py-1.5 text-xs font-sans font-bold uppercase tracking-wider border rounded-xs cursor-pointer focus:outline-none transition-all ${
                 registryCategory === cat
                   ? "bg-[#8F9E75] text-white border-[#8F9E75]"
                   : "bg-white text-stone-700 border-brand-border/80 hover:bg-brand-sand/50"
@@ -190,7 +190,7 @@ function CSRActivities() {
             <h4 className="font-serif text-sm font-bold text-brand-black">
               No matching projects located
             </h4>
-            <p className="text-xs text-brand-muted max-w-sm mx-auto">
+            <p className="text-sm text-brand-muted max-w-sm mx-auto">
               We couldn't locate any CSR activities matching your current query.
               Try resetting filters below.
             </p>
@@ -200,7 +200,7 @@ function CSRActivities() {
                 setRegistrySearch("");
                 setRegistryCategory("All");
               }}
-              className="mt-2 text-xs font-mono tracking-wider font-bold text-[#8F9E75] uppercase hover:underline cursor-pointer focus:outline-none"
+              className="mt-2 text-sm font-mono tracking-wider font-bold text-[#8F9E75] uppercase hover:underline cursor-pointer focus:outline-none"
             >
               Clear Search Parameters
             </button>
@@ -258,13 +258,13 @@ function CSRActivities() {
 
                       {/* Content Frame */}
                       <div className="p-5 space-y-2.5">
-                        <span className="text-[9px] font-mono font-bold text-[#8F9E75] uppercase tracking-widest block">
+                        <span className="text-[14px] font-mono font-bold text-[#8F9E75] uppercase tracking-widest block">
                           {act.category}
                         </span>
-                        <h4 className="font-serif text-sm font-bold text-brand-black leading-snug group-hover:text-[#8F9E75] transition-colors min-h-[40px] line-clamp-2">
+                        <h4 className="font-serif text-base font-bold text-brand-black leading-snug group-hover:text-[#8F9E75] transition-colors min-h-[40px] line-clamp-2">
                           {act.activity}
                         </h4>
-                        <p className="text-stone-600 text-[11px] leading-relaxed line-clamp-3">
+                        <p className="text-stone-600 text-[14px] leading-relaxed line-clamp-3">
                           {act.desc}
                         </p>
                       </div>
@@ -273,11 +273,11 @@ function CSRActivities() {
                     {/* Bottom Metadata */}
                     <div className="px-5 py-3 bg-brand-sand/20 border-t border-brand-border/40 flex items-start gap-2">
                       <MapPin
-                        size={11}
+                        size={15}
                         className="text-[#B8001F] shrink-0 mt-0.5"
                       />
-                      <div className="text-[10px] overflow-hidden">
-                        <span className="font-bold text-stone-400 block uppercase tracking-wider text-[8px] font-mono leading-none">
+                      <div className="text-[14px] overflow-hidden">
+                        <span className="font-bold text-stone-400 block uppercase tracking-wider text-[10px] font-mono leading-none">
                           Designated Boundary
                         </span>
                         <span
@@ -299,7 +299,7 @@ function CSRActivities() {
             id="csr-activity-table"
           >
             <div className="overflow-x-auto">
-              <table className="w-full text-left font-sans text-xs border-collapse">
+              <table className="w-full text-left font-sans text-sm border-collapse">
                 <thead>
                   <tr className="bg-brand-sand/55 border-b border-brand-border text-brand-black font-semibold uppercase tracking-wider text-[9px] font-mono">
                     <th className="py-3 px-4 w-[60px] text-center border-r border-brand-border/50">
@@ -362,7 +362,7 @@ function CSRActivities() {
                             </div>
                           </td>
                           <td className="py-3.5 px-4 border-r border-brand-border/50 space-y-1">
-                            <div className="font-serif font-bold text-stone-900 text-xs">
+                            <div className="font-serif font-bold text-stone-900 text-sm">
                               {act.activity}
                             </div>
                             <div className="text-[10px] text-stone-500 leading-relaxed max-w-xl">

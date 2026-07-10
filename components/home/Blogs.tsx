@@ -9,15 +9,15 @@ function Blogs() {
   return (
     <section>
       <div className="bg-[#F5F3EE] py-16 md:py-24 border-b border-brand-border/70">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 select-none text-brand-black font-sans">
-          <div className="text-center max-w-xl mx-auto space-y-2 mb-12">
-            <span className="text-[#B8001F] text-xs font-mono font-bold uppercase tracking-widest">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 select-none text-brand-black">
+          <div className="text-center max-w-xl mx-auto space-y-3 mb-12">
+            <span className="text-[#B8001F] text-base font-bold uppercase tracking-widest">
               Industrial Hub
             </span>
-            <h3 className="text-3xl font-extrabold uppercase text-brand-black">
+            <h3 className="text-3xl font-bold uppercase text-brand-black">
               Steel Knowledge Hub
             </h3>
-            <p className="text-xs text-brand-muted font-sans font-medium">
+            <p className="text-base text-brand-muted font-medium">
               Read educational guidelines prepared by corporate geological and
               compliance specialists.
             </p>
@@ -42,7 +42,7 @@ function Blogs() {
                   <h4 className="font-black text-lg text-brand-black leading-tight group-hover:text-brand-red transition-colors">
                     {post.title}
                   </h4>
-                  <p className="text-xs text-brand-muted leading-relaxed line-clamp-3">
+                  <p className="text-base text-brand-muted leading-relaxed line-clamp-3">
                     {post.excerpt}
                   </p>
                 </div>

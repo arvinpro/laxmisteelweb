@@ -163,20 +163,20 @@ function SustainabilityActivities() {
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-20 space-y-12">
         {/* Core Header */}
         <div className="text-center space-y-2">
-          <span className="text-[#B8001F] text-xs font-mono font-semibold uppercase tracking-[0.2em] block mb-1">
+          <span className="text-[#B8001F] text-sm font-mono font-semibold uppercase tracking-[0.2em] block mb-1">
             Our Commitments
           </span>
           <h2 className="font-serif text-2xl md:text-4xl font-normal text-brand-black">
             The ESG Pillars of Laxmi Steels
           </h2>
-          <p className="text-xs text-brand-muted font-sans font-light max-w-lg mx-auto">
+          <p className="text-sm text-brand-muted font-sans font-light max-w-lg mx-auto">
             Governed by Nepalese industrial frameworks and international
             metrics, we ensure compliance, growth, and circular accountability.
           </p>
         </div>
 
         {/* Tab Buttons */}
-        <div className="flex justify-center font-sans text-xs uppercase tracking-wider font-semibold border-b border-brand-border">
+        <div className="flex justify-center font-sans text-sm uppercase tracking-wider font-semibold border-b border-brand-border">
           <button
             onClick={() => setActiveTab("env")}
             className={`px-6 py-4 border-b-2 transition-all cursor-pointer focus:outline-none ${activeTab === "env" ? "border-[#B8001F] text-brand-black" : "border-transparent text-brand-muted hover:text-brand-black"}`}
@@ -216,7 +216,7 @@ function SustainabilityActivities() {
                   </div>
                 </div>
 
-                <p className="text-xs text-brand-muted leading-relaxed font-sans">
+                <p className="text-sm text-brand-muted leading-relaxed font-sans">
                   {item.shortDesc}
                 </p>
 
@@ -224,10 +224,10 @@ function SustainabilityActivities() {
                   <span className="text-[10px] uppercase font-mono font-bold tracking-wider text-brand-muted block">
                     Initiative Milestones:
                   </span>
-                  <ul className="space-y-2 text-xs font-sans text-brand-black">
+                  <ul className="space-y-2 text-sm font-sans text-brand-black">
                     {item.details.map((detail, idx) => (
                       <li key={idx} className="flex items-start gap-2">
-                        <span className="text-brand-red mt-1 font-bold text-xs flex-shrink-0">
+                        <span className="text-brand-red mt-1 font-bold text-sm flex-shrink-0">
                           &bull;
                         </span>
                         <span className="leading-relaxed font-light">
@@ -248,7 +248,7 @@ function SustainabilityActivities() {
                   <span className="text-sm font-bold font-serif text-brand-black">
                     {item.metric}
                   </span>
-                  <span className="text-[10px] font-mono text-[#D4A017] uppercase tracking-wide bg-brand-sand px-2 py-0.5 border border-[#D4A017]/30 font-semibold">
+                  <span className="text-[14px] font-mono text-[#D4A017] uppercase tracking-wide bg-brand-sand px-2 py-0.5 border border-[#D4A017]/30 font-semibold">
                     {item.metricLabel}
                   </span>
                 </div>

@@ -1,5 +1,6 @@
 import { ChevronRight, Info } from "lucide-react";
 import Documents from "./Documents";
+import Breadcrumb from "../ui/Breadcrumb";
 
 function InvestorView() {
   return (
@@ -14,15 +15,7 @@ function InvestorView() {
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="max-w-7xl mx-auto relative z-10 text-center space-y-4">
-          <div className="flex items-center justify-center gap-1.5 text-xs font-sans text-gray-400 select-none mb-4 md:mb-5">
-            <span className="hover:text-white transition-colors cursor-pointer">
-              Home
-            </span>
-            <ChevronRight size={10} className="text-gray-500" />
-            <span className="text-brand-skytext font-medium">
-              Investor Relations
-            </span>
-          </div>
+         <Breadcrumb />
           <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight leading-tight">
             Investor Relations
           </h1>
@@ -37,10 +30,10 @@ function InvestorView() {
         <div className="bg-amber-50 border border-amber-200 p-5 rounded-xs flex items-start gap-4 text-sm text-brand-black select-none shadow-3xs">
           <Info size={20} className="text-brand-gold flex-shrink-0 mt-0.5" />
           <div className="space-y-1">
-            <h4 className="font-condensed font-black text-xs uppercase tracking-wider text-amber-900">
+            <h4 className="font-condensed font-black text-sm uppercase tracking-wider text-amber-900">
               Regulatory Information Repository
             </h4>
-            <p className="text-xs text-amber-800 leading-relaxed font-sans">
+            <p className="text-sm text-amber-800 leading-relaxed font-sans">
               Welcome to the digital investor portal of Laxmi Steels Limited.
               This platform is maintained in compliance with Company Acts and
               SEBON guidelines. Released reports are fully accessible to

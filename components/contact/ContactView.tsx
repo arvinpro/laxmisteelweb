@@ -2,6 +2,7 @@ import { ChevronRight } from "lucide-react"
 import ContactForm from "./ContactForm"
 import InteractiveMap from "./InteractiveMap"
 import FAQSection from "./FAQSection"
+import Breadcrumb from "../ui/Breadcrumb"
 
 
 function ContactView() {
@@ -14,11 +15,7 @@ function ContactView() {
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="max-w-7xl mx-auto relative z-10 text-center space-y-4">
-          <div className="flex items-center justify-center gap-1.5 text-xs font-sans text-gray-400 select-none mb-4 md:mb-5">
-            <a href="/" className="hover:text-white transition-colors">Home</a>
-            <ChevronRight size={10} className="text-gray-500" />
-            <span className="text-brand-skytext font-medium">Contact Operations</span>
-          </div>
+          <Breadcrumb />
           <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">Contact Our Operations</h1>
           <p className="text-brand-gold text-lg max-w-2xl mx-auto uppercase tracking-wider font-bold">
             Headquarters & Manufacturing Plant Communication Desk

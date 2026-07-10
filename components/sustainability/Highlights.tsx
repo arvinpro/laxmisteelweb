@@ -9,13 +9,13 @@ function Highlights() {
           <h3 className="font-serif text-2xl md:text-3xl font-medium tracking-tight">
             Building Nepal’s Infrastructures for a Green Tomorrow.
           </h3>
-          <p className="text-xs text-white/80 max-w-xl mx-auto leading-relaxed font-sans">
+          <p className="text-sm text-white/80 max-w-xl mx-auto leading-relaxed font-sans">
             Laxmi Steels believes high-ductility rebar is more than structural
             security—it is our accountability to preserve local environments,
             safeguard lives, and build durable legacies.
           </p>
           <div className="pt-2">
-            <span className="border border-white/40 hover:border-white bg-white/5 hover:bg-white/10 text-white font-mono text-xs uppercase tracking-widest px-6 py-3 transition-colors inline-flex items-center gap-2 rounded-none">
+            <span className="border border-white/40 hover:border-white bg-white/5 hover:bg-white/10 text-white font-mono text-sm uppercase tracking-widest px-6 py-3 transition-colors inline-flex items-center gap-2 rounded-none">
               <span>ESTD 2008 &bull; NEPAL</span>
             </span>
           </div>

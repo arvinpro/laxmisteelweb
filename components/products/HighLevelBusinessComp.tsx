@@ -17,7 +17,7 @@ function HighLevelBusinessComp() {
                     <h5 className="font-condensed font-bold text-[11px] text-[#B8001F] uppercase tracking-wide">
                       1. Project Cost Dynamics
                     </h5>
-                    <div className="space-y-1.5 text-xs text-brand-muted font-sans leading-relaxed">
+                    <div className="space-y-1.5 text-sm text-brand-muted font-sans leading-relaxed">
                       <p>
                         <strong className="text-brand-black">FE 500:</strong>{" "}
                         Baseline budget pricing, saving approximately 2-3% on
@@ -37,7 +37,7 @@ function HighLevelBusinessComp() {
                     <h5 className="font-condensed font-bold text-[11px] text-[#B8001F] uppercase tracking-wide">
                       2. Risk & Asset Valuation
                     </h5>
-                    <div className="space-y-1.5 text-xs text-brand-muted font-sans leading-relaxed">
+                    <div className="space-y-1.5 text-sm text-brand-muted font-sans leading-relaxed">
                       <p>
                         <strong className="text-brand-black">FE 500:</strong>{" "}
                         Standard code compliance. Better suited for non-seismic
@@ -56,7 +56,7 @@ function HighLevelBusinessComp() {
                     <h5 className="font-condensed font-bold text-[11px] text-[#B8001F] uppercase tracking-wide">
                       3. Structural Workability
                     </h5>
-                    <div className="space-y-1.5 text-xs text-brand-muted font-sans leading-relaxed">
+                    <div className="space-y-1.5 text-sm text-brand-muted font-sans leading-relaxed">
                       <p>
                         <strong className="text-brand-black">FE 500:</strong>{" "}
                         Standard bending margins. Higher risk of surface
@@ -72,7 +72,7 @@ function HighLevelBusinessComp() {
                   </div>
                 </div>
 
-                <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-xs">
+                <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-sm">
                   <span className="text-brand-muted font-sans">
                     Want to see complete metallurgical test statistics, carbon
                     chemistry specs, and deep structural parameters?

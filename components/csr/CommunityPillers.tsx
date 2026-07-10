@@ -12,7 +12,7 @@ function CommunityPillers() {
             <h3 className="font-serif text-base font-bold text-brand-black uppercase tracking-tight">
               Civil Sanitation & Infrastructure
             </h3>
-            <p className="text-stone-600 text-xs leading-relaxed font-sans">
+            <p className="text-stone-600 text-sm leading-relaxed font-sans">
               Upgrading public amenities including local pathways, community
               lighting, sanitary restrooms, and safe environment settings across
               the Nawalparasi region.
@@ -26,7 +26,7 @@ function CommunityPillers() {
             <h3 className="font-serif text-base font-bold text-brand-black uppercase tracking-tight">
               Educational Upliftment
             </h3>
-            <p className="text-stone-600 text-xs leading-relaxed font-sans">
+            <p className="text-stone-600 text-sm leading-relaxed font-sans">
               Ensuring under-privileged school students receive proper books,
               stationeries, and bag packs, while supporting regional
               multi-campus infrastructure expansions.
@@ -40,7 +40,7 @@ function CommunityPillers() {
             <h3 className="font-serif text-base font-bold text-brand-black uppercase tracking-tight">
               Health & Athletic Wellness
             </h3>
-            <p className="text-stone-600 text-xs leading-relaxed font-sans">
+            <p className="text-stone-600 text-sm leading-relaxed font-sans">
               Organizing ongoing blood collection drives, free eye medical
               testing clinics, and sponsoring sub-ward and district athletic
               cups to sustain high community energy.

@@ -3,6 +3,7 @@ import SustainabilityOverview from "./SustainabilityOverview";
 import EstimatedRebar from "./EstimatedRebar";
 import SustainabilityActivities from "./SustainabilityActivities";
 import Highlights from "./Highlights";
+import Breadcrumb from "../ui/Breadcrumb";
 
 
 function SustainabilityView() {
@@ -24,13 +25,7 @@ function SustainabilityView() {
         <div className="absolute -right-24 -bottom-24 w-96 h-96 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none" />
 
         <div className="max-w-7xl mx-auto space-y-4 relative z-10 text-center">
-          <div className="flex items-center justify-center gap-1.5 text-xs text-gray-400 font-mono">
-            <span>Corporate Governance</span>
-            <ChevronRight size={10} className="text-gray-500" />
-            <span className="text-emerald-400 font-medium font-semibold">
-              Eco Sustainability
-            </span>
-          </div>
+         <Breadcrumb />
 
           <h1 className="text-3xl md:text-5xl font-bold text-white tracking-tight leading-tight">
             Sustainability & Green Legacy

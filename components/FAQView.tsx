@@ -202,7 +202,7 @@ export default function FAQView({
               <h1 className="text-3xl md:text-5xl font-bold text-white uppercase tracking-tight leading-none">
                 FAQ Center
               </h1>
-              <p className="text-gray-300 font-sans text-xs md:text-sm max-w-xl mx-auto leading-relaxed">
+              <p className="text-gray-300 font-sans text-sm md:text-sm max-w-xl mx-auto leading-relaxed">
                 Find immediate, certified answers compiled by our metallurgical
                 engineers regarding earthquake resistance, rebar certifications,
                 storage protocols, and quality standards.
@@ -226,12 +226,12 @@ export default function FAQView({
               placeholder="Search for questions, grades (e.g., Fe 500D), or certifications..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-white border border-brand-border text-brand-black pl-11 pr-5 py-3.5 placeholder-gray-400 font-semibold focus:outline-none focus:border-[#8F9E75] transition-all shadow-xs text-xs rounded-xs"
+              className="w-full bg-white border border-brand-border text-brand-black pl-11 pr-5 py-3.5 placeholder-gray-400 font-semibold focus:outline-none focus:border-[#8F9E75] transition-all shadow-xs text-sm rounded-xs"
             />
             {searchQuery && (
               <button
                 onClick={() => setSearchQuery("")}
-                className="absolute right-4 top-3.5 text-gray-400 hover:text-brand-black text-xs font-bold font-condensed uppercase focus:outline-none"
+                className="absolute right-4 top-3.5 text-gray-400 hover:text-brand-black text-sm font-bold font-condensed uppercase focus:outline-none"
               >
                 Clear
               </button>
@@ -247,7 +247,7 @@ export default function FAQView({
                   setSelectedCategory(cat.id);
                   setOpenFAQ(null);
                 }}
-                className={`py-2 px-4 rounded-xs font-condensed font-bold text-xs uppercase tracking-wider flex items-center gap-1.5 cursor-pointer focus:outline-none transition-colors border ${
+                className={`py-2 px-4 rounded-xs font-condensed font-bold text-sm uppercase tracking-wider flex items-center gap-1.5 cursor-pointer focus:outline-none transition-colors border ${
                   selectedCategory === cat.id
                     ? "bg-brand-black text-white border-brand-black"
                     : "bg-white hover:bg-brand-sand text-brand-black border-brand-border"
@@ -296,7 +296,7 @@ export default function FAQView({
 
                     {isOpen && (
                       <div>
-                        <div className="p-4 md:p-5 bg-brand-sand border-t border-brand-border font-sans text-xs md:text-sm text-brand-muted leading-relaxed">
+                        <div className="p-4 md:p-5 bg-brand-sand border-t border-brand-border font-sans text-sm md:text-sm text-brand-muted leading-relaxed">
                           {faq.answer}
                         </div>
                       </div>

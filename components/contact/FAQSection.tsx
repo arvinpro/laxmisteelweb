@@ -35,7 +35,7 @@ function FAQSection() {
 
               {activeFAQ === index && (
                 <div>
-                  <p className="p-4 bg-brand-sand text-xs text-brand-muted leading-relaxed border-t border-brand-border">
+                  <p className="p-4 bg-brand-sand text-sm text-brand-muted leading-relaxed border-t border-brand-border">
                     {faq.a}
                   </p>
                 </div>

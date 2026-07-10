@@ -95,14 +95,13 @@ export default function HeroSection() {
             <div className="max-w-7xl mx-auto px-6 md:px-10 w-full pb-20 md:pb-24 relative z-10 flex flex-col lg:flex-row lg:items-end justify-between gap-10">
 
               {/* Left: text */}
-              <div className="max-w-xl space-y-8 text-left">
+              <div className="max-w-xl space-y-6 text-left">
 
                 {/* Eyebrow */}
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2">
                   <span className="block h-[1px] w-5 bg-[#D4A017]" />
                   <span
-                    className="text-[#D4A017] uppercase tracking-[0.26em] font-semibold"
-                    style={{ fontSize: "8.5px", fontFamily: "sans-serif" }}
+                    className="text-[#D4A017] text-[9px] md:text-[12px] uppercase tracking-[0.26em] font-semibold"
                   >
                     Est. 2008 &bull; Seismic Resilience
                   </span>
@@ -112,13 +111,13 @@ export default function HeroSection() {
                 <div>
                   <h1 className="text-white select-none leading-none">
                     <span
-                      className="font-serif font-light block text-white/60"
+                      className="font-light block text-white/60"
                       style={{ fontSize: "clamp(28px, 3.8vw, 44px)", letterSpacing: "-0.01em" }}
                     >
                       Nepal's Benchmark of
                     </span>
                     <span
-                      className="font-serif font-semibold block text-white mt-1.5"
+                      className="font-semibold block text-white mt-1.5"
                       style={{ fontSize: "clamp(40px, 5.2vw, 58px)", letterSpacing: "-0.025em" }}
                     >
                       High-Ductility Steel
@@ -133,8 +132,8 @@ export default function HeroSection() {
 
                 {/* Body */}
                 <p
-                  className="text-white/40 leading-[1.9] max-w-sm"
-                  style={{ fontSize: "12.5px" }}
+                  className="text-white/70 leading-[1.9] max-w-sm"
+                  style={{ fontSize: "16.5px" }}
                 >
                   Licensed German Thermex Technology. Built for Nepal's active seismic zones.
                   Trusted by structural engineers and national planners.
@@ -144,16 +143,16 @@ export default function HeroSection() {
                 <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
                   <Link
                     href="/product"
-                    className="group bg-[#C8001E] hover:bg-[#A8001A] text-white font-sans font-medium tracking-[0.14em] uppercase px-7 py-3.5 transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center gap-2.5 shadow-lg shadow-red-950/50"
-                    style={{ fontSize: "10.5px" }}
+                    className="group bg-[#C8001E] hover:bg-[#A8001A] text-white font-medium tracking-[0.14em] uppercase px-7 py-3.5 transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center gap-2.5 shadow-lg shadow-red-950/50"
+                    style={{ fontSize: "12.5px" }}
                   >
                     <span>Explore Products</span>
                     <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform duration-200" />
                   </Link>
                   <Link
                     href="/project"
-                    className="border border-white/15 hover:border-[#D4A017]/50 hover:bg-white/[0.03] text-white/60 hover:text-white/90 font-sans font-medium tracking-[0.14em] uppercase px-7 py-3.5 transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center"
-                    style={{ fontSize: "10.5px" }}
+                    className="border border-white/15 hover:border-[#D4A017]/50 hover:bg-white/[0.03] text-white/60 hover:text-white/90 font-medium tracking-[0.14em] uppercase px-7 py-3.5 transition-all duration-200 cursor-pointer focus:outline-none flex items-center justify-center"
+                    style={{ fontSize: "12.5px" }}
                   >
                     View Legacy Projects
                   </Link>
@@ -171,8 +170,8 @@ export default function HeroSection() {
                       {value}
                     </span>
                     <span
-                      className="text-white/35 uppercase tracking-[0.18em] font-sans"
-                      style={{ fontSize: "8.5px" }}
+                      className="text-gray-400 font-bold uppercase tracking-[0.18em] font-sans"
+                      style={{ fontSize: "9px" }}
                     >
                       {label}
                     </span>
@@ -201,7 +200,7 @@ export default function HeroSection() {
                   <React.Fragment key={i}>
                     <span
                       className="text-[#D4A017] font-sans uppercase font-medium"
-                      style={{ fontSize: "9px", letterSpacing: "0.22em" }}
+                      style={{ fontSize: "12px", letterSpacing: "0.22em" }}
                     >
                       {item}
                     </span>
@@ -211,9 +210,6 @@ export default function HeroSection() {
               </div>
             </div>
           </div>
-
-          {/* ── STATS STRIP ─────────────────────────────────────── */}
-          
 
           
         </div>

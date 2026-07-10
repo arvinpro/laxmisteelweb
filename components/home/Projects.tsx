@@ -8,15 +8,15 @@ function Projects() {
               >
                 <div className="max-w-7xl mx-auto space-y-12">
                   <div className="text-center max-w-xl mx-auto space-y-2 select-none">
-                    <span className="text-[#B8001F] font-mono text-xs uppercase font-bold tracking-widest block">Our Infrastructure</span>
+                    <span className="text-[#B8001F] text-base uppercase font-bold tracking-widest block">Our Infrastructure</span>
                     <h3 className="text-3xl font-bold uppercase text-brand-black">Proven on National Milestones</h3>
-                    <p className="text-xs text-brand-muted font-sans font-medium">Laxmi Steels is the specified metal choice for critical civil projects across Nepal.</p>
+                    <p className="text-[0.80rem] text-brand-muted font-medium">Laxmi Steels is the specified metal choice for critical civil projects across Nepal.</p>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 font-black text-xs uppercase text-brand-black">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 font-black text-[0.80rem] uppercase text-brand-black">
                     <div className="bg-white border border-brand-border p-5 rounded-xs flex items-center justify-between shadow-xs">
                       <span className="tracking-wide">✓ Siddhababa National Tunnel</span>
-                      <span className="text-xs text-brand-red">supplied</span>
+                      <span className="text-[0.80rem] text-brand-red">supplied</span>
                     </div>
                     <div className="bg-white border border-brand-border p-5 rounded-xs flex items-center justify-between shadow-xs">
                       <span className="tracking-wide">✓ Upper Tamor Hydropower (285 MW)</span>

@@ -1,6 +1,7 @@
 import MasonryGridImages from "./MasonryGridImages";
 import ChooseUs from "./ChooseUs";
 import { ChevronRight } from "lucide-react";
+import Breadcrumb from "../ui/Breadcrumb";
 
 const stats = [
   { number: "30+", label: "Mega Projects Supplied" },
@@ -22,15 +23,7 @@ function ProjectsView() {
         <div className="absolute inset-0 bg-brand-darksky/30" />
         <div className="max-w-7xl mx-auto relative z-10 text-center space-y-4">
           {/* Breadcrumbs Navigation Aid */}
-          <div className="flex items-center justify-center gap-1.5 text-xs font-sans text-gray-400 select-none mb-4 md:mb-5">
-            <span className="hover:text-white transition-colors cursor-pointer">
-              Home
-            </span>
-            <ChevronRight size={10} className="text-gray-500" />
-            <span className="text-brand-skytext font-medium">
-              Projects & Legacy
-            </span>
-          </div>
+          <Breadcrumb />
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-2 leading-tight">
             Building Nepal, Project by Project
           </h1>
