@@ -12,14 +12,14 @@ function Team() {
   return (
     <section>
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-16 md:py-24 space-y-16">
-        <div className="text-center max-w-xl mx-auto space-y-2 select-none">
-          <span className="text-[#B8001F] text-xs font-mono font-bold uppercase tracking-widest">
+        <div className="text-center max-w-xl mx-auto space-y-4 select-none">
+          <span className="text-[#B8001F] text-sm font-bold uppercase tracking-widest">
             Our Organizational Grid
           </span>
-          <h3 className="font-serif text-3xl font-extrabold text-brand-black uppercase">
+          <h3 className="text-3xl font-extrabold text-brand-black uppercase">
             Executive Leadership & Management
           </h3>
-          <p className="text-xs text-brand-muted leading-relaxed">
+          <p className="text-base text-brand-muted leading-relaxed">
             Meet the visionaries, financial guardians, and operations
             specialists guiding our journey to elevate Shivautomation and Laxmi
             Steels Limited's infrastructure standards.
@@ -31,10 +31,10 @@ function Team() {
           <div className="flex items-center gap-4 border-b border-brand-border pb-4">
             <Award className="text-brand-red w-5 h-5 flex-shrink-0" />
             <div>
-              <h4 className="font-serif text-lg font-bold text-brand-black uppercase tracking-wide">
+              <h4 className="text-lg font-bold text-brand-black uppercase tracking-wide">
                 Board of Directors
               </h4>
-              <p className="text-[10px] text-brand-muted font-mono uppercase tracking-widest">
+              <p className="text-xs text-brand-muted uppercase tracking-widest">
                 Governing Council & Ultimate Authorities
               </p>
             </div>
@@ -73,16 +73,16 @@ function Team() {
                             ? "Board Chairman"
                             : "Board Director"}
                         </span>
-                        <h4 className="font-condensed font-extrabold text-base uppercase tracking-wide text-brand-black group-hover:text-brand-red transition-colors">
+                        <h4 className="font-extrabold text-base uppercase tracking-wide text-brand-black group-hover:text-brand-red transition-colors">
                           {member.name}
                         </h4>
-                        <p className="text-xs text-brand-muted font-semibold mt-0.5">
+                        <p className="text-sm text-brand-muted font-semibold mt-0.5">
                           {member.title}
                         </p>
                       </div>
                     </div>
 
-                    <p className="text-xs text-brand-muted leading-relaxed pl-3 border-l-2 border-brand-border group-hover:border-brand-red/40 transition-colors py-0.5 italic text-left">
+                    <p className="text-sm text-brand-muted leading-relaxed pl-3 border-l-2 border-brand-border group-hover:border-brand-red/40 transition-colors py-0.5 italic text-left">
                       "{member.bio}"
                     </p>
                   </div>
@@ -110,7 +110,7 @@ function Team() {
               <h4 className="text-lg font-bold text-brand-black uppercase tracking-wide">
                 Key Corporate Officers
               </h4>
-              <p className="text-[10px] text-brand-muted font-mono uppercase tracking-widest">
+              <p className="text-xs text-brand-muted font-mono uppercase tracking-widest">
                 Executive Management & General Secretary
               </p>
             </div>
@@ -141,19 +141,19 @@ function Team() {
                 </div>
 
                 <div className="flex-1 text-center sm:text-left">
-                  <span className="inline-block text-[8px] font-mono font-bold text-neutral-500 uppercase bg-neutral-100 px-1.5 py-0.5 rounded-full mb-1.5 tracking-wider">
+                  <span className="inline-block text-[8px] font-bold text-neutral-500 uppercase bg-neutral-100 px-1.5 py-0.5 rounded-full mb-1.5 tracking-wider">
                     Executive Administration
                   </span>
                   <h4 className="font-condensed font-extrabold text-sm uppercase tracking-wide text-brand-black group-hover:text-brand-black transition-colors">
                     {member.name}
                   </h4>
-                  <p className="text-xs text-brand-muted font-semibold mb-2">
+                  <p className="text-sm text-brand-muted font-semibold mb-2">
                     {member.title}
                   </p>
-                  <p className="text-xs text-brand-muted line-clamp-2 leading-relaxed mb-3 pr-2">
+                  <p className="text-sm text-brand-muted line-clamp-2 leading-relaxed mb-3 pr-2">
                     {member.bio}
                   </p>
-                  <span className="inline-flex items-center text-[9px] font-mono tracking-wider uppercase text-brand-gold">
+                  <span className="inline-flex items-center text-[9px] tracking-wider uppercase text-brand-gold">
                     <span>View Profile</span>
                     <ChevronRight
                       size={10}
@@ -176,7 +176,7 @@ function Team() {
               <h4 className="font-serif text-lg font-bold text-brand-black uppercase tracking-wide">
                 Operational & Sales Leadership
               </h4>
-              <p className="text-[10px] text-brand-muted font-mono uppercase tracking-widest">
+              <p className="text-xs text-brand-muted uppercase tracking-widest">
                 Heads of Department & Managers
               </p>
             </div>
@@ -209,21 +209,21 @@ function Team() {
 
                 <div className="flex-1 space-y-2">
                   <div className="flex items-center justify-center sm:justify-between">
-                    <span className="inline-block text-[8px] font-mono uppercase bg-brand-border/40 text-brand-black/80 px-2 py-0.5 rounded-full tracking-wider font-semibold">
+                    <span className="inline-block text-[8px] uppercase bg-brand-border/40 text-brand-black/80 px-2 py-0.5 rounded-full tracking-wider font-semibold">
                       {member.category === "sales"
                         ? "Commercial Division"
                         : "Plant Operations"}
                     </span>
                   </div>
                   <div>
-                    <h4 className="font-condensed font-extrabold text-sm uppercase tracking-wide text-brand-black transition-colors group-hover:text-brand-black">
+                    <h4 className="font-extrabold text-sm uppercase tracking-wide text-brand-black transition-colors group-hover:text-brand-black">
                       {member.name}
                     </h4>
-                    <p className="text-xs text-brand-muted font-semibold mt-0.5">
+                    <p className="text-sm text-brand-muted font-semibold mt-0.5">
                       {member.title}
                     </p>
                   </div>
-                  <p className="text-xs text-brand-muted leading-relaxed line-clamp-2 pt-1">
+                  <p className="text-sm text-brand-muted leading-relaxed line-clamp-2 pt-1">
                     {member.bio}
                   </p>
 

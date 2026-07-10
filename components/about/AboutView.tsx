@@ -26,7 +26,7 @@ export default function AboutView() {
           <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
             About Laxmi Steels
           </h1>
-          <p className="font-condensed text-brand-gold text-lg uppercase tracking-wider font-bold">
+          <p className="text-brand-gold text-lg uppercase tracking-wider font-bold">
             Nepal's Largest Steel Manufacturer Since 2008
           </p>
         </div>

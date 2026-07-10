@@ -36,7 +36,7 @@ function MartensiticTooltip({ label = "Martensitic" }: { label?: string }) {
         {label}
       </span>
       <span className="absolute bottom-full left-1/2 -translate-x-1/2 pb-2 w-72 z-50 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:scale-100 transition-all duration-200 transform scale-95 origin-bottom opacity-0 block">
-        <div className="bg-neutral-950 text-white rounded-xs shadow-xl border border-white/10 p-4 text-xs text-left">
+        <div className="bg-neutral-950 text-white rounded-xs shadow-xl border border-white/10 p-4 text-sm text-left">
           <span className="font-mono text-[#8F9E75] text-[10px] tracking-widest uppercase block mb-1 font-bold">
             METALLURGICAL DEFINITION
           </span>
@@ -81,7 +81,7 @@ function ManufactureProcess() {
           <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:30px_30px]" />
 
           <div className="max-w-7xl mx-auto relative z-10 text-center space-y-6">
-            <span className="font-condensed font-bold text-xs tracking-widest bg-brand-red text-white p-2 text-[10px] uppercase inline-block">
+            <span className="font-condensed font-bold text-sm tracking-widest bg-brand-red text-white p-2 text-[10px] uppercase inline-block">
               Our Technology
             </span>
             <h2 className="font-serif text-3xl md:text-5xl font-extrabold text-white leading-tight uppercase">
@@ -90,7 +90,7 @@ function ManufactureProcess() {
             <p className="font-condensed text-brand-gold text-lg uppercase tracking-widest font-bold">
               Inside the Laxmi Steels Manufacturing Plant
             </p>
-            <p className="text-gray-300 font-sans text-xs md:text-sm max-w-2xl mx-auto leading-relaxed">
+            <p className="text-gray-300 font-sans text-sm md:text-sm max-w-2xl mx-auto leading-relaxed">
               Take a technical walkthrough of our automated manufacturing
               facilities in Sunwal-7, Nawalparasi. Discover how state-of-the-art
               machinery and German Thermex quenching process convert raw billets
@@ -104,12 +104,12 @@ function ManufactureProcess() {
           <div className="relative border-l border-brand-border md:border-l-0 md:before:absolute md:before:left-1/2 md:before:top-0 md:before:bottom-0 md:before:w-[2px] md:before:bg-brand-border">
             {/* STEP 01 */}
             <div className="mb-16 md:mb-24 relative flex flex-col md:flex-row items-start md:items-center">
-              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-xs w-8 h-8 rounded-full flex items-center justify-center">
+              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-sm w-8 h-8 rounded-full flex items-center justify-center">
                 01
               </div>
 
               <div className="md:w-1/2 pl-8 md:pl-0 md:pr-16 text-left md:text-right">
-                <span className="text-xs md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
+                <span className="text-sm md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
                   Phase 01: Raw Sourcing
                 </span>
                 <h3 className="font-serif text-2xl font-extrabold text-brand-black mt-2 mb-3">
@@ -126,13 +126,13 @@ function ManufactureProcess() {
               </div>
               <div className="hidden md:block md:w-1/2 pr-0 md:pl-16">
                 <div className="border border-brand-border bg-white p-6 max-w-md select-none">
-                  <span className="font-condensed font-black text-xs text-brand-black uppercase block tracking-wider mb-2">
+                  <span className="font-condensed font-black text-sm text-brand-black uppercase block tracking-wider mb-2">
                     Technical Standards Met
                   </span>
-                  <span className="text-xs font-mono text-brand-red block">
+                  <span className="text-sm font-mono text-brand-red block">
                     FE 500 & FE 500D Grade Chemistry
                   </span>
-                  <p className="text-xs text-brand-muted mt-1 leading-relaxed">
+                  <p className="text-sm text-brand-muted mt-1 leading-relaxed">
                     Conforming directly to NS-191 & IS-1786 requirements for
                     chemical balance.
                   </p>
@@ -142,12 +142,12 @@ function ManufactureProcess() {
 
             {/* STEP 02 */}
             <div className="mb-16 md:mb-24 relative flex flex-col md:flex-row-reverse items-start md:items-center">
-              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-xs w-8 h-8 rounded-full flex items-center justify-center">
+              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-sm w-8 h-8 rounded-full flex items-center justify-center">
                 02
               </div>
 
               <div className="md:w-1/2 pl-8 md:pl-16 text-left">
-                <span className="text-xs md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
+                <span className="text-sm md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
                   Phase 02: Deform Rolling
                 </span>
                 <h3 className="font-serif text-2xl font-extrabold text-brand-black mt-2 mb-3">
@@ -164,13 +164,13 @@ function ManufactureProcess() {
               </div>
               <div className="hidden md:block md:w-1/2 pl-0 md:pr-16 text-right">
                 <div className="border border-brand-border bg-white p-6 max-w-md ml-auto select-none">
-                  <span className="font-condensed font-black text-xs text-brand-black uppercase block tracking-wider mb-2">
+                  <span className="font-condensed font-black text-sm text-brand-black uppercase block tracking-wider mb-2">
                     Automated Geometric Controls
                   </span>
-                  <span className="text-xs font-mono text-brand-red block">
+                  <span className="text-sm font-mono text-brand-red block">
                     Precision Rib Angles & Spacing
                   </span>
-                  <p className="text-xs text-brand-muted mt-1 leading-relaxed">
+                  <p className="text-sm text-brand-muted mt-1 leading-relaxed">
                     Continuous dimension scanning maintains zero variations in
                     steel unit weight.
                   </p>
@@ -180,12 +180,12 @@ function ManufactureProcess() {
 
             {/* STEP 03: THE THERMEX TREATMENT */}
             <div className="mb-16 md:mb-24 relative flex flex-col md:flex-row items-start md:items-center">
-              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-xs w-8 h-8 rounded-full flex items-center justify-center">
+              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-sm w-8 h-8 rounded-full flex items-center justify-center">
                 03
               </div>
 
               <div className="md:w-1/2 pl-8 md:pl-0 md:pr-16 text-left md:text-right">
-                <span className="text-xs md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
+                <span className="text-sm md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
                   Phase 03: Thermex Quenching
                 </span>
                 <h3 className="font-serif text-2xl font-extrabold text-brand-black mt-2 mb-3">
@@ -212,10 +212,10 @@ function ManufactureProcess() {
                         <Droplet size={16} />
                       </div>
                       <div>
-                        <h4 className="font-condensed font-bold text-xs tracking-wide text-brand-black uppercase">
+                        <h4 className="font-condensed font-bold text-sm tracking-wide text-brand-black uppercase">
                           Rapid Water Quenching
                         </h4>
-                        <div className="text-xs text-brand-muted font-sans leading-relaxed mt-1">
+                        <div className="text-sm text-brand-muted font-sans leading-relaxed mt-1">
                           The glowing 950°C red hot rebar passes through
                           high-pressure spray water jets, cooling the outer skin
                           instantly into a hard{" "}
@@ -234,10 +234,10 @@ function ManufactureProcess() {
                         <Flame size={16} />
                       </div>
                       <div>
-                        <h4 className="font-condensed font-bold text-xs tracking-wide text-brand-black uppercase">
+                        <h4 className="font-condensed font-bold text-sm tracking-wide text-brand-black uppercase">
                           Core Self-Tempering
                         </h4>
-                        <p className="text-xs text-brand-muted font-sans leading-relaxed mt-1">
+                        <p className="text-sm text-brand-muted font-sans leading-relaxed mt-1">
                           Cooling halts and thermal energy stored in the hot
                           internal core flows outwards, annealing the outer
                           martensite ring into a durable tempered martensite
@@ -256,10 +256,10 @@ function ManufactureProcess() {
                         <Wind size={16} />
                       </div>
                       <div>
-                        <h4 className="font-condensed font-bold text-xs tracking-wide text-brand-black uppercase">
+                        <h4 className="font-condensed font-bold text-sm tracking-wide text-brand-black uppercase">
                           Atmospheric Cooling
                         </h4>
-                        <p className="text-xs text-brand-muted font-sans leading-relaxed mt-1">
+                        <p className="text-sm text-brand-muted font-sans leading-relaxed mt-1">
                           The bars cool naturally on massive beds under calm
                           ambient atmospheres, letting the hot active core
                           completely transform into a soft Ferrite-Pearlite
@@ -274,12 +274,12 @@ function ManufactureProcess() {
 
             {/* STEP 04 */}
             <div className="mb-16 md:mb-24 relative flex flex-col md:flex-row items-start md:items-center">
-              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-xs w-8 h-8 rounded-full flex items-center justify-center">
+              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-sm w-8 h-8 rounded-full flex items-center justify-center">
                 04
               </div>
 
               <div className="md:w-1/2 pl-8 md:pl-0 md:pr-16 text-left md:text-right">
-                <span className="text-xs md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
+                <span className="text-sm md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
                   Phase 04: Metallurgy benefits
                 </span>
                 <h3 className="font-serif text-2xl font-extrabold text-brand-black mt-2 mb-3">
@@ -304,7 +304,7 @@ function ManufactureProcess() {
                       <h5 className="font-condensed font-bold text-sm uppercase text-brand-black mb-1">
                         {item.label}
                       </h5>
-                      <p className="text-xs text-brand-muted font-sans leading-normal">
+                      <p className="text-sm text-brand-muted font-sans leading-normal">
                         {item.desc}
                       </p>
                     </div>
@@ -315,12 +315,12 @@ function ManufactureProcess() {
 
             {/* STEP 05 */}
             <div className="mb-6 relative flex flex-col md:flex-row-reverse items-start md:items-center">
-              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-xs w-8 h-8 rounded-full flex items-center justify-center">
+              <div className="absolute -left-[16px] md:left-1/2 md:-ml-[16px] z-10 bg-brand-black text-white border-2 border-brand-red p-2 font-mono text-sm w-8 h-8 rounded-full flex items-center justify-center">
                 05
               </div>
 
               <div className="md:w-1/2 pl-8 md:pl-16 text-left">
-                <span className="text-xs md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
+                <span className="text-sm md:text-sm font-mono font-bold tracking-widest text-[#B8001F] uppercase">
                   Phase 05: Quality audit
                 </span>
                 <h3 className="font-serif text-2xl font-extrabold text-brand-black mt-2 mb-3">
@@ -339,7 +339,7 @@ function ManufactureProcess() {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <div className="bg-white border border-brand-border p-4 text-center rounded-xs hover:border-brand-red transition-all shadow-xs">
                     <Gauge size={22} className="text-brand-red mx-auto mb-2" />
-                    <span className="font-condensed font-bold uppercase text-xs text-brand-black block">
+                    <span className="font-condensed font-bold uppercase text-sm text-brand-black block">
                       Dimensional Accuracy
                     </span>
                   </div>
@@ -348,7 +348,7 @@ function ManufactureProcess() {
                       size={22}
                       className="text-brand-red mx-auto mb-2"
                     />
-                    <span className="font-condensed font-bold uppercase text-xs text-brand-black block">
+                    <span className="font-condensed font-bold uppercase text-sm text-brand-black block">
                       Mechanical Testing
                     </span>
                   </div>
@@ -357,7 +357,7 @@ function ManufactureProcess() {
                       size={22}
                       className="text-brand-red mx-auto mb-2"
                     />
-                    <span className="font-condensed font-bold uppercase text-xs text-brand-black block">
+                    <span className="font-condensed font-bold uppercase text-sm text-brand-black block">
                       Surface Inspection
                     </span>
                   </div>

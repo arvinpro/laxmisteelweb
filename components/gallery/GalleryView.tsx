@@ -3,6 +3,7 @@
 import Image, { StaticImageData } from "next/image";
 import { ChevronRight, Maximize2, X } from "lucide-react";
 import { useState } from "react";
+import Breadcrumb from "../ui/Breadcrumb";
 function GalleryView() {
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
 
@@ -40,13 +41,7 @@ function GalleryView() {
           <div className="absolute inset-0 bg-black/40" />
           <div className="max-w-7xl mx-auto relative z-10 text-center space-y-4">
             {/* Breadcrumbs Navigation Aid */}
-            <div className="flex items-center justify-center gap-1.5 text-xs font-sans text-gray-400 select-none mb-4 md:mb-5">
-              <span className="hover:text-white transition-colors cursor-pointer">
-                Home
-              </span>
-              <ChevronRight size={10} className="text-gray-500" />
-              <span className="text-brand-skytext font-medium">Gallery</span>
-            </div>
+           <Breadcrumb />
             <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
               Industrial Plant Gallery
             </h1>

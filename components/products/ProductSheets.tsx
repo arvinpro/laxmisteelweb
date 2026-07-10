@@ -13,7 +13,7 @@ function MartensiticTooltip({ label = "Martensitic" }: { label?: string }) {
         {label}
       </span>
       <span className="absolute bottom-full left-1/2 -translate-x-1/2 pb-2 w-72 z-50 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:scale-100 transition-all duration-200 transform scale-95 origin-bottom opacity-0 block">
-        <div className="bg-neutral-950 text-white rounded-xs shadow-xl border border-white/10 p-4 text-xs text-left">
+        <div className="bg-neutral-950 text-white rounded-xs shadow-xl border border-white/10 p-4 text-sm text-left">
           <span className="font-mono text-[#8F9E75] text-[10px] tracking-widest uppercase block mb-1 font-bold">
             METALLURGICAL DEFINITION
           </span>
@@ -93,7 +93,7 @@ function ProductSheets() {
                 setQuoteProduct(null);
                 setSelectedProductCategory("FE 500D TMT Steel Bars");
               }}
-              className={`flex-1 md:flex-initial px-6 py-3 font-condensed font-bold text-xs uppercase tracking-widest transition-all cursor-pointer focus:outline-none block select-none ${
+              className={`flex-1 md:flex-initial px-6 py-3 font-bold text-sm uppercase tracking-widest transition-all cursor-pointer focus:outline-none block select-none ${
                 activeTab === "tmt"
                   ? "bg-brand-red text-white shadow-md"
                   : "text-gray-400 hover:text-white hover:bg-white/5"
@@ -107,7 +107,7 @@ function ProductSheets() {
                 setQuoteProduct(null);
                 setSelectedProductCategory("4.75mm Cold Ribbed Wire");
               }}
-              className={`flex-1 md:flex-initial px-6 py-3 font-condensed font-bold text-xs uppercase tracking-widest transition-all cursor-pointer focus:outline-none block select-none ${
+              className={`flex-1 md:flex-initial px-6 py-3 font-bold text-sm uppercase tracking-widest transition-all cursor-pointer focus:outline-none block select-none ${
                 activeTab === "ribbed"
                   ? "bg-brand-red text-white shadow-md"
                   : "text-gray-400 hover:text-white hover:bg-white/5"
@@ -123,7 +123,7 @@ function ProductSheets() {
                   "High-Tensile Annealed Binding Wire"
                 );
               }}
-              className={`flex-1 md:flex-initial px-6 py-3 font-condensed font-bold text-xs uppercase tracking-widest transition-all cursor-pointer focus:outline-none block select-none ${
+              className={`flex-1 md:flex-initial px-6 py-3 font-bold text-sm uppercase tracking-widest transition-all cursor-pointer focus:outline-none block select-none ${
                 activeTab === "binding"
                   ? "bg-brand-red text-white shadow-md"
                   : "text-gray-400 hover:text-white hover:bg-white/5"
@@ -144,10 +144,10 @@ function ProductSheets() {
           <div key="tmt-pane" className="space-y-16">
             {/* Product Intro */}
             <div className="text-center max-w-3xl mx-auto space-y-4">
-              <h2 className="font-serif text-3xl font-extrabold text-brand-black">
+              <h2 className="text-3xl font-extrabold text-brand-black">
                 Thermex High-Ductility TMT Rebars
               </h2>
-              <div className="text-brand-muted font-sans text-sm md:text-base leading-relaxed">
+              <div className="text-brand-muted text-sm md:text-base leading-relaxed">
                 Our TMT (Thermo-Mechanically Treated) reinforcement bars are
                 engineered using licensed German Thermex technology. This yields
                 rebars with a rugged, wear-resistant outer{" "}
@@ -165,19 +165,19 @@ function ProductSheets() {
                 <div className="p-6 md:p-8 space-y-6">
                   <div className="flex justify-between items-start">
                     <div>
-                      <span className="font-condensed font-semibold text-[10px] tracking-widest bg-brand-black/5 text-brand-black px-2 py-0.5 uppercase">
+                      <span className="font-semibold text-[10px] tracking-widest bg-brand-black/5 text-brand-black px-2 py-0.5 uppercase">
                         Standard Grade
                       </span>
-                      <h3 className="font-serif text-2xl font-extrabold text-brand-black mt-2">
+                      <h3 className="text-2xl font-extrabold text-brand-black mt-2">
                         FE 500 TMT Steel Bars
                       </h3>
                     </div>
-                    <div className="bg-brand-black text-white px-3 py-1 font-mono text-xs font-semibold">
+                    <div className="bg-brand-black text-white px-3 py-1 font-mono text-sm font-semibold">
                       Fe 500
                     </div>
                   </div>
 
-                  <p className="text-brand-muted text-sm font-sans">
+                  <p className="text-brand-muted text-sm">
                     Our flagship commercial product designed for high-strength
                     application in conventional RCC structures throughout urban
                     housing projects.
@@ -185,14 +185,14 @@ function ProductSheets() {
 
                   {/* Size widget */}
                   <div className="space-y-2">
-                    <h4 className="font-condensed font-bold text-xs uppercase tracking-wider text-brand-black">
+                    <h4 className="font-condensed font-bold text-sm uppercase tracking-wider text-brand-black">
                       Available Nominal Sizes:
                     </h4>
                     <div className="flex flex-wrap gap-1.5">
                       {sizes.map((size) => (
                         <span
                           key={size}
-                          className="bg-brand-sand border border-brand-border text-brand-black text-xs font-mono px-2.5 py-1"
+                          className="bg-brand-sand border border-brand-border text-brand-black text-sm font-mono px-2.5 py-1"
                         >
                           {size}
                         </span>
@@ -202,11 +202,11 @@ function ProductSheets() {
 
                   {/* Description Detail */}
                   <div className="bg-brand-sand p-4 border`l-2 border-brand-black">
-                    <p className="text-xs text-brand-black font-sans font-medium mb-1 flex items-center gap-1.5">
+                    <p className="text-sm text-brand-black font-medium mb-1 flex items-center gap-1.5">
                       <Info size={14} className="text-brand-red" />
                       <span>What is Fe 500?</span>
                     </p>
-                    <p className="text-xs text-brand-muted font-sans font-normal leading-relaxed">
+                    <p className="text-sm text-brand-muted font-normal leading-relaxed">
                       Features a minimum guaranteed yield strength of 500
                       Newtons per square millimeter (MPa). Delivers robust
                       carbon consistency and load capacity.
@@ -215,10 +215,10 @@ function ProductSheets() {
 
                   {/* Key Benefits */}
                   <div className="space-y-3 pt-2">
-                    <h4 className="font-condensed font-bold text-xs uppercase tracking-wider text-brand-black">
+                    <h4 className="font-bold text-sm uppercase tracking-wider text-brand-black">
                       Key Project Benefits:
                     </h4>
-                    <ul className="space-y-2.5 text-xs text-brand-muted font-sans">
+                    <ul className="space-y-2.5 text-sm text-brand-muted font-sans">
                       <li className="flex items-start gap-2">
                         <Check
                           size={14}
@@ -266,10 +266,10 @@ function ProductSheets() {
 
                   {/* Best used for */}
                   <div className="space-y-2 pt-2">
-                    <h4 className="font-condensed font-bold text-xs uppercase tracking-wider text-brand-black">
+                    <h4 className="font-condensed font-bold text-sm uppercase tracking-wider text-brand-black">
                       Best Suited For:
                     </h4>
-                    <div className="grid grid-cols-2 gap-2 text-xs font-sans text-brand-black font-medium">
+                    <div className="grid grid-cols-2 gap-2 text-sm font-sans text-brand-black font-medium">
                       <div className="bg-brand-sand p-2 rounded-xs">
                         ✓ Private Residential Houses
                       </div>
@@ -315,14 +315,14 @@ function ProductSheets() {
 
                   {/* Size widget */}
                   <div className="space-y-2">
-                    <h4 className="font-condensed font-bold text-xs uppercase tracking-wider text-brand-black">
+                    <h4 className="font-condensed font-bold text-sm uppercase tracking-wider text-brand-black">
                       Available Nominal Sizes:
                     </h4>
                     <div className="flex flex-wrap gap-1.5">
                       {sizes.map((size) => (
                         <span
                           key={size}
-                          className="bg-brand-red/5 border border-brand-red/20 text-brand-red font-mono text-xs px-2.5 py-1"
+                          className="bg-brand-red/5 border border-brand-red/20 text-brand-red font-mono text-sm px-2.5 py-1"
                         >
                           {size}
                         </span>
@@ -332,14 +332,14 @@ function ProductSheets() {
 
                   {/* Description Detail */}
                   <div className="bg-brand-red/5 p-4 border-l-2 border-brand-red">
-                    <p className="text-xs text-brand-red font-sans font-semibold mb-1 flex items-center gap-1.5">
+                    <p className="text-sm text-brand-red font-sans font-semibold mb-1 flex items-center gap-1.5">
                       <ShieldAlert
                         size={14}
                         className="text-brand-red focus:outline-none"
                       />
                       <span>Why "D" stands for Ductility:</span>
                     </p>
-                    <p className="text-xs text-brand-muted font-sans font-normal leading-relaxed">
+                    <p className="text-sm text-brand-muted font-sans font-normal leading-relaxed">
                       Fe 500D guarantees the same 500 MPa strength limits but
                       mandates far lower levels of volatile sulfur/phosphorus.
                       This elevates elongation to over 16%, allowing structures
@@ -349,10 +349,10 @@ function ProductSheets() {
 
                   {/* Key Benefits */}
                   <div className="space-y-3 pt-2">
-                    <h4 className="font-condensed font-bold text-xs uppercase tracking-wider text-brand-black">
+                    <h4 className="font-condensed font-bold text-sm uppercase tracking-wider text-brand-black">
                       Key Safety Benefits:
                     </h4>
-                    <ul className="space-y-2.5 text-xs text-brand-muted font-sans">
+                    <ul className="space-y-2.5 text-sm text-brand-muted font-sans">
                       <li className="flex items-start gap-2">
                         <Check
                           size={14}
@@ -401,10 +401,10 @@ function ProductSheets() {
 
                   {/* Best used for */}
                   <div className="space-y-2 pt-2">
-                    <h4 className="font-condensed font-bold text-xs uppercase tracking-wider text-brand-black">
+                    <h4 className="font-condensed font-bold text-sm uppercase tracking-wider text-brand-black">
                       Mandatory For:
                     </h4>
-                    <div className="grid grid-cols-2 gap-2 text-xs font-sans text-brand-black font-semibold">
+                    <div className="grid grid-cols-2 gap-2 text-sm font-sans text-brand-black font-semibold">
                       <div className="bg-brand-red/5 p-2 rounded-xs text-brand-red">
                         ✓ National Bridges & Highways
                       </div>
@@ -436,7 +436,7 @@ function ProductSheets() {
             {/* Left Column: Product Info */}
             <div className="lg:col-span-7 space-y-8">
               <div className="space-y-3">
-                <span className="font-mono text-xs tracking-widest text-brand-red uppercase font-semibold">
+                <span className="font-mono text-sm tracking-widest text-brand-red uppercase font-semibold">
                   Product Classification: Special Construction Wire
                 </span>
                 <h2 className="font-serif text-3xl md:text-4xl font-extrabold text-brand-black">
@@ -499,19 +499,19 @@ function ProductSheets() {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                   <div className="border bg-white border-brand-border p-3.5 rounded-sm flex items-center gap-2.5">
                     <Layers size={18} className="text-brand-red" />
-                    <span className="text-xs font-semibold text-brand-black">
+                    <span className="text-sm font-semibold text-brand-black">
                       Precast Pipe Systems
                     </span>
                   </div>
                   <div className="border bg-white border-brand-border p-3.5 rounded-sm flex items-center gap-2.5">
                     <Anchor size={18} className="text-brand-red" />
-                    <span className="text-xs font-semibold text-brand-black">
+                    <span className="text-sm font-semibold text-brand-black">
                       Pre-stressed Slabs
                     </span>
                   </div>
                   <div className="border bg-white border-brand-border p-3.5 rounded-sm flex items-center gap-2.5">
                     <Zap size={18} className="text-brand-red" />
-                    <span className="text-xs font-semibold text-brand-black">
+                    <span className="text-sm font-semibold text-brand-black">
                       Welded Wire Fabric
                     </span>
                   </div>
@@ -526,7 +526,7 @@ function ProductSheets() {
             {/* Left Column: Product Info */}
             <div className="lg:col-span-7 space-y-8">
               <div className="space-y-3">
-                <span className="font-mono text-xs tracking-widest text-brand-red uppercase font-semibold">
+                <span className="font-mono text-sm tracking-widest text-brand-red uppercase font-semibold">
                   Product Classification: Binding Steel Wire
                 </span>
                 <h2 className="font-serif text-3xl md:text-4xl font-extrabold text-brand-black">
@@ -545,7 +545,7 @@ function ProductSheets() {
                 <h4 className="font-condensed font-bold text-sm tracking-wide text-brand-black uppercase mb-1">
                   The Analogy: Binding the Skeleton of Your Home
                 </h4>
-                <p className="text-xs text-brand-muted font-sans leading-relaxed">
+                <p className="text-sm text-brand-muted font-sans leading-relaxed">
                   "Binding wire is what keeps the steel skeleton tight and fixed
                   before concrete is poured. If poor, brittle wires break, the
                   structural rebars displace under the heavy load of falling
@@ -600,28 +600,28 @@ function ProductSheets() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div className="border bg-white border-brand-border p-3.5 rounded-sm flex items-center gap-2.5">
                     <Grid3X3 size={18} className="text-brand-red" />
-                    <span className="text-xs font-semibold text-brand-black">
+                    <span className="text-sm font-semibold text-brand-black">
                       Tying Slabs Mesh
                     </span>
                   </div>
 
                   <div className="border bg-white border-brand-border p-3.5 rounded-sm flex items-center gap-2.5">
                     <Building2 size={18} className="text-brand-red" />
-                    <span className="text-xs font-semibold text-brand-black">
+                    <span className="text-sm font-semibold text-brand-black">
                       Column Cage Fixing
                     </span>
                   </div>
 
                   <div className="border bg-white border-brand-border p-3.5 rounded-sm flex items-center gap-2.5">
                     <Hammer size={18} className="text-brand-red" />
-                    <span className="text-xs font-semibold text-brand-black">
+                    <span className="text-sm font-semibold text-brand-black">
                       Foundation Grid Work
                     </span>
                   </div>
 
                   <div className="border bg-white border-brand-border p-3.5 rounded-sm flex items-center gap-2.5">
                     <Workflow size={18} className="text-brand-red" />
-                    <span className="text-xs font-semibold text-brand-black">
+                    <span className="text-sm font-semibold text-brand-black">
                       Beam Shear Stirrups
                     </span>
                   </div>

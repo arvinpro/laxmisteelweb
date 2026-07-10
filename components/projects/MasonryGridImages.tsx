@@ -62,7 +62,7 @@ function MasonryGridImages() {
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex space-x-2 justify-start md:justify-center min-w-max md:min-w-0 md:flex-wrap">
           <button
             onClick={() => setActiveTab("all")}
-            className={`px-4 py-2 font-bold text-xs uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
+            className={`px-4 py-2 font-bold text-sm uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
               activeTab === "all"
                 ? "bg-brand-red text-white"
                 : "bg-white border border-brand-border text-brand-black hover:bg-brand-sand"
@@ -72,7 +72,7 @@ function MasonryGridImages() {
           </button>
           <button
             onClick={() => setActiveTab("tunnels")}
-            className={`px-4 py-2 font-bold text-xs uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
+            className={`px-4 py-2 font-bold text-sm uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
               activeTab === "tunnels"
                 ? "bg-brand-red text-white"
                 : "bg-white border border-brand-border text-brand-black hover:bg-brand-sand"
@@ -82,7 +82,7 @@ function MasonryGridImages() {
           </button>
           <button
             onClick={() => setActiveTab("hydro")}
-            className={`px-4 py-2 font-bold text-xs uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
+            className={`px-4 py-2 font-bold text-sm uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
               activeTab === "hydro"
                 ? "bg-brand-red text-white"
                 : "bg-white border border-brand-border text-brand-black hover:bg-brand-sand"
@@ -92,7 +92,7 @@ function MasonryGridImages() {
           </button>
           <button
             onClick={() => setActiveTab("transmission")}
-            className={`px-4 py-2 font-bold text-xs uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
+            className={`px-4 py-2 font-bold text-sm uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
               activeTab === "transmission"
                 ? "bg-brand-red text-white"
                 : "bg-white border border-brand-border text-brand-black hover:bg-brand-sand"
@@ -102,7 +102,7 @@ function MasonryGridImages() {
           </button>
           <button
             onClick={() => setActiveTab("government")}
-            className={`px-4 py-2 font-bold text-xs uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
+            className={`px-4 py-2 font-bold text-sm uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
               activeTab === "government"
                 ? "bg-brand-red text-white"
                 : "bg-white border border-brand-border text-brand-black hover:bg-brand-sand"
@@ -112,7 +112,7 @@ function MasonryGridImages() {
           </button>
           <button
             onClick={() => setActiveTab("residential")}
-            className={`px-4 py-2 font-bold text-xs uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
+            className={`px-4 py-2 font-bold text-sm uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs ${
               activeTab === "residential"
                 ? "bg-brand-red text-white"
                 : "bg-white border border-brand-border text-brand-black hover:bg-brand-sand"
@@ -162,13 +162,13 @@ function MasonryGridImages() {
                     </h3>
 
                     {project.scale && (
-                      <p className="text-xs text-white/90 font-medium flex items-center gap-1.5 drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">
+                      <p className="text-sm text-white/90 font-medium flex items-center gap-1.5 drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">
                         <span className="w-1.5 h-1.5 bg-brand-gold rounded-full" />
                         <span>Scale: {project.scale}</span>
                       </p>
                     )}
 
-                    <div className="border-t border-white/20 my-3 pt-3 space-y-2 text-xs text-white/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">
+                    <div className="border-t border-white/20 my-3 pt-3 space-y-2 text-sm text-white/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">
                       <div className="flex items-start gap-1.5">
                         <HardHat
                           size={14}
@@ -182,7 +182,7 @@ function MasonryGridImages() {
                     </div>
                   </div>
 
-                  <div className="mt-4 pt-3 border-t border-white/20 flex items-center gap-1.5 text-xs text-white/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">
+                  <div className="mt-4 pt-3 border-t border-white/20 flex items-center gap-1.5 text-sm text-white/90 drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">
                     <MapPin size={13} className="text-brand-gold" />
                     <span>{project.location}</span>
                   </div>

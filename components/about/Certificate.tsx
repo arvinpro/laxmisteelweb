@@ -18,14 +18,14 @@ function Certificate() {
     <section>
         <div className="bg-brand-sand/50 border-t border-brand-border py-16 px-4 md:px-8 select-none text-brand-black">
         <div className="max-w-7xl mx-auto space-y-12">
-          <div className="text-center space-y-2 max-w-xl mx-auto">
-            <span className="text-[#B8001F] font-mono text-xs uppercase font-bold tracking-widest">
+          <div className="text-center space-y-4 max-w-xl mx-auto">
+            <span className="text-[#B8001F] text-sm uppercase font-bold tracking-widest">
               Certified Integrity Guarantee
             </span>
             <h3 className="text-2xl md:text-3xl font-bold uppercase">
               Certified Quality You Can Trust
             </h3>
-            <p className="text-xs text-brand-muted">
+            <p className="text-base text-brand-muted">
               Laxmi Steels is thoroughly accredited by Nepalese and
               international testing institutions. Click any certificate to view
               the original full-screen document document.
@@ -52,7 +52,7 @@ function Certificate() {
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-black/5 group-hover:bg-black/20 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100">
-                  <div className="bg-brand-black/80 text-white text-xs font-mono py-2 px-3 flex items-center gap-1.5 uppercase tracking-wider backdrop-blur-xs">
+                  <div className="bg-brand-black/80 text-white text-sm font-mono py-2 px-3 flex items-center gap-1.5 uppercase tracking-wider backdrop-blur-xs">
                     <ZoomIn size={14} />
                     <span>View Certificate</span>
                   </div>
@@ -62,7 +62,7 @@ function Certificate() {
                 <h4 className="font-condensed font-extrabold text-base uppercase text-brand-black group-hover:text-[#B8001F] transition-colors">
                   Nepal Standards Certificate
                 </h4>
-                <p className="text-xs text-brand-muted leading-relaxed">
+                <p className="text-sm text-brand-muted leading-relaxed">
                   Licensed under NS-191 criteria, verifying complete dimensional
                   tolerance, elasticity ratios, and bending fatigue controls.
                 </p>
@@ -88,7 +88,7 @@ function Certificate() {
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-black/5 group-hover:bg-black/20 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100">
-                  <div className="bg-brand-black/80 text-white text-xs font-mono py-2 px-3 flex items-center gap-1.5 uppercase tracking-wider backdrop-blur-xs">
+                  <div className="bg-brand-black/80 text-white text-sm font-mono py-2 px-3 flex items-center gap-1.5 uppercase tracking-wider backdrop-blur-xs">
                     <ZoomIn size={14} />
                     <span>View Certificate</span>
                   </div>
@@ -98,7 +98,7 @@ function Certificate() {
                 <h4 className="font-condensed font-extrabold text-base uppercase text-brand-black group-hover:text-[#B8001F] transition-colors">
                   ISO 9001:2015 Standards
                 </h4>
-                <p className="text-xs text-brand-muted leading-relaxed">
+                <p className="text-sm text-brand-muted leading-relaxed">
                   Confirming strict adherence to Global Management Guidelines
                   across sourcing, thermal heat-cycling, and warehouse delivery
                   tracks.
@@ -125,7 +125,7 @@ function Certificate() {
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-black/5 group-hover:bg-black/20 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100">
-                  <div className="bg-brand-black/80 text-white text-xs font-mono py-2 px-3 flex items-center gap-1.5 uppercase tracking-wider backdrop-blur-xs">
+                  <div className="bg-brand-black/80 text-white text-sm font-mono py-2 px-3 flex items-center gap-1.5 uppercase tracking-wider backdrop-blur-xs">
                     <ZoomIn size={14} />
                     <span>View Certificate</span>
                   </div>
@@ -135,7 +135,7 @@ function Certificate() {
                 <h4 className="font-condensed font-extrabold text-base uppercase text-brand-black font-semibold group-hover:text-[#D4A017] transition-colors">
                   Bureau of Indian Standards
                 </h4>
-                <p className="text-xs text-brand-muted leading-relaxed">
+                <p className="text-sm text-brand-muted leading-relaxed">
                   Accredited completely for regional exporting requirements,
                   validating high purity chemical parameters in our cast metals.
                 </p>

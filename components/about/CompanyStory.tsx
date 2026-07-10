@@ -11,14 +11,14 @@ function CompanyStory() {
             2008
           </div>
 
-          <span className="font-condensed font-extrabold tracking-widest text-[#B8001F] text-xs uppercase border-b border-brand-red/30 pb-2 inline-block">
+          <span className="font-extrabold tracking-widest text-[#B8001F] text-sm uppercase border-b border-brand-red/30 pb-2 inline-block">
             Our Historic Legacy
           </span>
-          <h2 className="font-serif text-3xl md:text-4xl font-extrabold text-brand-black tracking-tight leading-tight select-none">
+          <h2 className="text-3xl md:text-4xl font-extrabold text-brand-black tracking-tight leading-tight select-none">
             A Legacy Built on Steel
           </h2>
 
-          <div className="space-y-4 text-xs md:text-sm text-brand-muted leading-relaxed">
+          <div className="space-y-4 text-xs text-justify md:text-base text-brand-muted leading-relaxed">
             <p>
               Founded in 2008 as a prominent pillar of the elite Saurabh Group,
               Laxmi Steels Limited emerged with a distinct, patriotic vision: to
@@ -54,12 +54,12 @@ function CompanyStory() {
               <h3 className="font-serif text-lg font-bold text-brand-black">
                 Part of the Saurabh Group
               </h3>
-              <p className="text-xs text-brand-muted leading-relaxed">
+              <p className="text-base text-brand-muted leading-relaxed">
                 Operating multi-sector manufacturing clusters throughout Nepal.
                 Consistently defining benchmark quality paradigms across cement,
                 steel, and trade logistics imports.
               </p>
-              <div className="border-t border-brand-border/60 pt-4 flex items-center justify-between text-[10px] font-mono whitespace-nowrap">
+              <div className="border-t border-brand-border/60 pt-4 flex items-center justify-between text-xs whitespace-nowrap">
                 <span>HEADQUARTERS: KATHMANDU</span>
                 <span className="text-brand-red">800 MT / DAY</span>
               </div>

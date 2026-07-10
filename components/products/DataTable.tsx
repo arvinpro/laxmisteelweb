@@ -15,7 +15,7 @@ function DataTable() {
               <div className="overflow-x-auto border border-brand-border rounded-sm">
                 <table className="w-full text-left font-sans text-sm border-collapse min-w-[600px]">
                   <thead>
-                    <tr className="bg-brand-black text-white font-condensed uppercase tracking-wider text-xs border-b border-white/5">
+                    <tr className="bg-brand-black text-white font-condensed uppercase tracking-wider text-sm border-b border-white/5">
                       <th className="p-4">Technical Property / Feature</th>
                       <th className="p-4 font-mono">Laxmi Fe 500 Standard</th>
                       <th className="p-4 font-mono text-brand-gold">
@@ -32,8 +32,8 @@ function DataTable() {
                         <td className="p-4 font-medium text-brand-black select-none">
                           {spec.feature}
                         </td>
-                        <td className="p-4 font-mono text-xs">{spec.fe500}</td>
-                        <td className="p-4 font-mono text-xs text-brand-red font-semibold">
+                        <td className="p-4 font-mono text-sm">{spec.fe500}</td>
+                        <td className="p-4 font-mono text-sm text-brand-red font-semibold">
                           {spec.fe500d}
                         </td>
                       </tr>

@@ -37,17 +37,17 @@ export default function Breadcrumb() {
       aria-label="Breadcrumb"
       className="mb-4 md:mb-5 flex justify-center"
     >
-      <ol className="flex flex-wrap items-center gap-1.5 text-xs font-sans">
+      <ol className="flex flex-wrap items-center gap-1.5 text-sm">
         <li className="flex items-center gap-1.5">
           <Link
             href="/"
-            className="text-gray-400 transition-colors hover:text-white"
+            className="text-red-600 transition-colors hover:text-white"
           >
             Home
           </Link>
 
           {segments.length > 0 && (
-            <ChevronRight size={10} className="text-gray-500" />
+            <ChevronRight size={15} className="text-gray-200" />
           )}
         </li>
 

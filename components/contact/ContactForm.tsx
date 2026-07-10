@@ -61,12 +61,12 @@ function ContactForm() {
               <MapPin size={20} />
             </div>
             <div className="space-y-1">
-              <span className="block font-condensed font-black text-xs tracking-widest text-brand-red uppercase">HEAD OFFICE</span>
+              <span className="block font-condensed font-black text-sm tracking-widest text-brand-red uppercase">HEAD OFFICE</span>
               <h4 className="font-serif text-lg font-bold text-brand-black">Kathmandu Headquarters</h4>
-              <p className="text-xs text-brand-muted leading-relaxed">
+              <p className="text-sm text-brand-muted leading-relaxed">
                 Neupane Tower, 3rd Floor, Subidhanagar, Kathmandu, Nepal
               </p>
-              <div className="text-xs text-brand-black font-semibold pt-1">
+              <div className="text-sm text-brand-black font-semibold pt-1">
                 Phone: +977-1-4412351 / 4412352
               </div>
             </div>
@@ -77,12 +77,12 @@ function ContactForm() {
               <MapPin size={20} />
             </div>
             <div className="space-y-1">
-              <span className="block font-condensed font-black text-xs tracking-widest text-brand-gold uppercase">MANUFACTURING PLANT</span>
+              <span className="block font-condensed font-black text-sm tracking-widest text-brand-gold uppercase">MANUFACTURING PLANT</span>
               <h4 className="font-serif text-lg font-bold text-brand-black">Sunwal Factory Complex</h4>
-              <p className="text-xs text-brand-muted leading-relaxed">
+              <p className="text-sm text-brand-muted leading-relaxed">
                 Khaireni, Sunwal-7, Nawalparasi (Lumbini Province), Nepal
               </p>
-              <div className="text-xs text-brand-black font-semibold pt-1">
+              <div className="text-sm text-brand-black font-semibold pt-1">
                 Phone: +977-78-570188
               </div>
             </div>
@@ -93,12 +93,12 @@ function ContactForm() {
               <Phone size={20} />
             </div>
             <div className="space-y-1">
-              <span className="block font-condensed font-black text-xs tracking-widest text-brand-muted uppercase">SALES & PROCUREMENT</span>
+              <span className="block font-condensed font-black text-sm tracking-widest text-brand-muted uppercase">SALES & PROCUREMENT</span>
               <h4 className="font-serif text-lg font-bold text-brand-black">Enquiry Helpdesk</h4>
-              <p className="text-xs text-brand-muted">
+              <p className="text-sm text-brand-muted">
                 Reach our provincial sales heads, quotation channels, or dispatch logs.
               </p>
-              <div className="text-xs text-brand-black font-semibold pt-1">
+              <div className="text-sm text-brand-black font-semibold pt-1">
                 Email: info@laxmisteels.com.np <br />
                 B2B Bulk Direct: +977-9801201502
               </div>
@@ -106,9 +106,9 @@ function ContactForm() {
           </div>
 
           <div className="border border-brand-border bg-white p-6 rounded-xs space-y-3 text-sm">
-            <span className="block font-condensed font-black text-xs text-brand-black tracking-wider uppercase">Institutional Channels</span>
-            <p className="text-xs text-brand-muted leading-normal">Follow Laxmi Steels on official socio-corporate platforms for recent compliance dispatches and group milestones.</p>
-            <div className="flex flex-wrap gap-2 text-xs font-mono">
+            <span className="block font-condensed font-black text-sm text-brand-black tracking-wider uppercase">Institutional Channels</span>
+            <p className="text-sm text-brand-muted leading-normal">Follow Laxmi Steels on official socio-corporate platforms for recent compliance dispatches and group milestones.</p>
+            <div className="flex flex-wrap gap-2 text-sm font-mono">
               <Link href="www.facebook.com" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">LinkedIn</Link>
               <Link href="www.facebook.com" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">Facebook</Link>
               <Link href="www.facebook.com" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">Instagram</Link>
@@ -122,10 +122,10 @@ function ContactForm() {
         <div className="lg:col-span-7 bg-white border border-brand-border p-6 md:p-8 rounded-sm shadow-sm">
           <div className="mb-6">
             <h3 className="font-serif text-2xl font-extrabold text-brand-black leading-tight mb-1">Submit Your Inquiry</h3>
-            <p className="text-xs text-brand-muted">Fill the form details below to direct your message to relevant department leads.</p>
+            <p className="text-sm text-brand-muted">Fill the form details below to direct your message to relevant department leads.</p>
           </div>
 
-          <form onSubmit={handleSubmit} className="space-y-5 text-xs text-brand-black">
+          <form onSubmit={handleSubmit} className="space-y-5 text-sm text-brand-black">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="block font-bold uppercase tracking-wide mb-1">Full Name *</label>
@@ -218,14 +218,14 @@ function ContactForm() {
 
             <button
               type="submit"
-              className="w-full bg-brand-red hover:bg-brand-red/90 text-white font-condensed font-black text-xs uppercase tracking-widest py-3.5 focus:outline-none cursor-pointer flex items-center justify-center gap-2 rounded-xs"
+              className="w-full bg-brand-red hover:bg-brand-red/90 text-white font-condensed font-black text-sm uppercase tracking-widest py-3.5 focus:outline-none cursor-pointer flex items-center justify-center gap-2 rounded-xs"
             >
               <Send size={14} />
               <span>Send Message</span>
             </button>
 
             {isSuccess && (
-              <div className="p-4 bg-emerald-50 border border-emerald-300 text-emerald-800 text-xs text-center rounded-xs">
+              <div className="p-4 bg-emerald-50 border border-emerald-300 text-emerald-800 text-sm text-center rounded-xs">
                 ✓ Communication logged! Sales team members will respond with rate guides as soon as possible.
               </div>
             )}

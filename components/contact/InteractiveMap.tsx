@@ -16,14 +16,14 @@ function InteractiveMap() {
     <section>
       <div className="bg-brand-sand border-y border-brand-border py-16 px-4 md:px-8 text-center space-y-6">
         <div className="max-w-2xl mx-auto space-y-2 select-none">
-          <div className="flex items-center gap-2 justify-center text-brand-red font-condensed font-bold uppercase text-xs tracking-wider">
+          <div className="flex items-center gap-2 justify-center text-brand-red font-condensed font-bold uppercase text-sm tracking-wider">
             <Map size={16} />
             <span>Interactive Geolocation Switcher</span>
           </div>
           <h3 className="font-serif text-2xl font-extrabold text-brand-black">
             Find Our Offices & Factory Complex
           </h3>
-          <p className="text-xs text-brand-muted">
+          <p className="text-sm text-brand-muted">
             Toggle between our main corporate headquarters in Kathmandu and
             active production mills in Nawalparasi.
           </p>
@@ -33,7 +33,7 @@ function InteractiveMap() {
           <div className="inline-flex bg-white rounded-xs p-1 border border-brand-border md:w-auto w-full gap-1 my-2">
             <button
               onClick={() => setActiveMapTab("office")}
-              className={`flex-1 md:flex-initial px-5 py-2.5 font-condensed font-bold text-xs uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs select-none ${
+              className={`flex-1 md:flex-initial px-5 py-2.5 font-condensed font-bold text-sm uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs select-none ${
                 activeMapTab === "office"
                   ? "bg-brand-red text-white"
                   : "text-brand-black hover:bg-brand-sand"
@@ -43,7 +43,7 @@ function InteractiveMap() {
             </button>
             <button
               onClick={() => setActiveMapTab("factory")}
-              className={`flex-1 md:flex-initial px-5 py-2.5 font-condensed font-bold text-xs uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs select-none ${
+              className={`flex-1 md:flex-initial px-5 py-2.5 font-condensed font-bold text-sm uppercase tracking-wider transition-colors cursor-pointer focus:outline-none rounded-xs select-none ${
                 activeMapTab === "factory"
                   ? "bg-brand-red text-white"
                   : "text-brand-black hover:bg-brand-sand"
@@ -80,7 +80,7 @@ function InteractiveMap() {
           )}
 
           <div className="absolute bottom-4 left-4 bg-brand-nearblack text-white p-3 text-left border border-white/15 max-w-xs pointer-events-none rounded-xs">
-            <span className="block font-condensed font-bold text-xs uppercase text-brand-gold">
+            <span className="block font-condensed font-bold text-sm uppercase text-brand-gold">
               LAXMI LOCATOR
             </span>
             <p className="text-[10.5px] text-gray-300 mt-1">

@@ -1,4 +1,5 @@
 import { ChevronRight } from "lucide-react";
+import Breadcrumb from "../ui/Breadcrumb";
 
 function CSRHero() {
   return (
@@ -18,11 +19,7 @@ function CSRHero() {
         <div className="absolute -right-24 -bottom-24 w-96 h-96 bg-[#8F9E75]/5 rounded-full blur-3xl pointer-events-none" />
 
         <div className="max-w-4xl mx-auto relative z-10 text-center space-y-4">
-          <div className="flex items-center justify-center gap-1.5 text-xs text-gray-400 font-mono">
-            <span>Home</span>
-            <ChevronRight size={10} className="text-gray-500" />
-            <span className="text-[#8F9E75] font-semibold">CSR Core</span>
-          </div>
+        <Breadcrumb />
 
           <h1 className="text-2xl md:text-4xl font-bold text-white uppercase tracking-tight leading-none">
             Corporate Social Responsibility

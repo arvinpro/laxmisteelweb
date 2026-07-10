@@ -21,13 +21,13 @@ function EstimatedRebar() {
         <div className="max-w-4xl mx-auto space-y-12 relative z-10">
           
           <div className="text-center space-y-3">
-            <span className="text-brand-skytext text-xs font-mono font-medium uppercase tracking-[0.2em] block mb-1">
+            <span className="text-brand-skytext text-sm font-mono font-medium uppercase tracking-[0.2em] block mb-1">
               Specifier Simulator
             </span>
             <h2 className="font-serif text-2xl md:text-4xl font-normal text-white">
               Laxmi Green-Steel Estimator
             </h2>
-            <p className="text-xs text-gray-400 font-sans max-w-xl mx-auto">
+            <p className="text-sm text-gray-400 font-sans max-w-xl mx-auto">
               Drag the slider to input the required rebar tonnage for your home or project, and evaluate the environmental savings realized by choosing eco-optimized Laxmi Steel instead of generic imports.
             </p>
           </div>
@@ -50,7 +50,7 @@ function EstimatedRebar() {
                   onChange={(e) => setTonnage(parseInt(e.target.value))}
                   className="w-full h-2 bg-white/10 rounded-lg appearance-none cursor-pointer accent-[#B8001F]"
                 />
-                <div className="flex justify-between text-[10px] text-gray-500 font-mono mt-1 pt-1">
+                <div className="flex justify-between text-[14px] text-gray-500 font-mono mt-1 pt-1">
                   <span>5 Tons (Home foundation)</span>
                   <span>500 Tons (Bridges/Infra)</span>
                   <span>1000 Tons (Mega Hydro)</span>
@@ -67,9 +67,9 @@ function EstimatedRebar() {
                   <Zap size={20} />
                 </div>
                 <div className="font-mono text-3xl font-bold tracking-tight text-white">
-                  {parseFloat(co2Saved).toLocaleString()} <span className="text-xs font-light text-gray-400">kg</span>
+                  {parseFloat(co2Saved).toLocaleString()} <span className="text-sm font-light text-gray-400">kg</span>
                 </div>
-                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-mono">
+                <div className="text-[14px] text-gray-400 uppercase tracking-widest font-mono">
                   Carbon Dioxide Saved
                 </div>
               </div>
@@ -80,9 +80,9 @@ function EstimatedRebar() {
                   <TreeDeciduous size={20} />
                 </div>
                 <div className="font-mono text-3xl font-bold tracking-tight text-white">
-                  {parseFloat(equivalentTrees).toLocaleString()} <span className="text-xs font-light text-gray-400">Trees</span>
+                  {parseFloat(equivalentTrees).toLocaleString()} <span className="text-sm font-light text-gray-400">Trees</span>
                 </div>
-                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-mono">
+                <div className="text-[14px] text-gray-400 uppercase tracking-widest font-mono">
                   Tree Carbon Equilibrium
                 </div>
               </div>
@@ -93,16 +93,16 @@ function EstimatedRebar() {
                   <Droplets size={20} />
                 </div>
                 <div className="font-mono text-3xl font-bold tracking-tight text-white">
-                  {parseFloat(waterSavedLiters).toLocaleString()} <span className="text-xs font-light text-gray-400">Liters</span>
+                  {parseFloat(waterSavedLiters).toLocaleString()} <span className="text-sm font-light text-gray-400">Liters</span>
                 </div>
-                <div className="text-[10px] text-gray-400 uppercase tracking-widest font-mono">
+                <div className="text-[14px] text-gray-400 uppercase tracking-widest font-mono">
                   Potable Water Conserved
                 </div>
               </div>
 
             </div>
 
-            <div className="text-[11px] text-gray-400 text-center leading-relaxed italic font-sans max-w-md mx-auto">
+            <div className="text-[14px] text-gray-400 text-center leading-relaxed italic font-sans max-w-md mx-auto">
               *Savings computed relative to blast-furnace coal-based rebar imports into Nepal. We are proud of our ongoing modernization journey to support regional environmental responsibility.
             </div>
           </div>

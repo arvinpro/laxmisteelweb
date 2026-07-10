@@ -8,12 +8,12 @@ function Products() {
                 className="bg-[#f5f3ee] border-b border-brand-border/70 py-16 md:py-24 px-4 md:px-8 select-none text-brand-black"
               >
                 <div className="max-w-7xl mx-auto space-y-12">
-                  <div className="text-center max-w-xl mx-auto space-y-2">
-                    <span className="text-[#B8001F] text-xs font-mono font-semibold uppercase tracking-[0.2em] block mb-1">
+                  <div className="text-center max-w-xl mx-auto space-y-3">
+                    <span className="text-[#B8001F] text-base font-bold uppercase tracking-[0.2em] block mb-1">
                       Our Catalog
                     </span>
-                    <h2 className="font-serif text-2xl md:text-4xl font-normal text-brand-black tracking-tight">Our Premium Products</h2>
-                    <p className="text-xs text-brand-muted font-sans font-light">Discover engineered steel products, calibrated for precise loading demands.</p>
+                    <h2 className="text-3xl md:text-4xl font-bold text-brand-black uppercase tracking-tight">Our Premium Products</h2>
+                    <p className="text-[0.80rem] text-brand-muted font-light">Discover engineered steel products, calibrated for precise loading demands.</p>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

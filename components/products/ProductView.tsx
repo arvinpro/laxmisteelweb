@@ -21,10 +21,10 @@ function ProductView() {
           <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight">
             Our Premium Products
           </h1>
-          <p className="font-condensed text-brand-gold font-bold text-lg max-w-2xl mx-auto uppercase tracking-wide">
+          <p className="text-brand-gold font-bold text-lg max-w-2xl mx-auto uppercase tracking-wide">
             Industrial Strength Steel Engineered for Nepal's Seismic Conditions
           </p>
-          <p className="text-gray-300 font-sans text-sm md:text-base max-w-xl mx-auto leading-relaxed">
+          <p className="text-gray-300 text-sm md:text-base max-w-xl mx-auto leading-relaxed">
             At Laxmi Steels, our structures are forged with deep technological
             stewardship. We manufacture robust, earthquake-tolerant structural
             steel with consistent diameters, strict mechanical safety nets, and

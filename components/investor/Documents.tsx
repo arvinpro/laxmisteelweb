@@ -120,13 +120,13 @@ function Documents() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <button
               onClick={() => setActiveTab('annual')}
-              className={`text-left p-4 rounded-xs border font-condensed font-bold text-xs sm:text-sm uppercase tracking-wide transition-all cursor-pointer focus:outline-none flex flex-col justify-between gap-1 min-h-[84px] ${
+              className={`text-left p-4 rounded-xs border font-condensed font-bold text-sm sm:text-sm uppercase tracking-wide transition-all cursor-pointer focus:outline-none flex flex-col justify-between gap-1 min-h-[84px] ${
                 activeTab === 'annual'
                   ? 'border-brand-red bg-brand-red/5 text-[#B8001F] shadow-xs'
                   : 'border-brand-border bg-white text-brand-black hover:bg-brand-sand/50'
               }`}
             >
-              <span className="text-[9px] font-mono opacity-60">Category 01</span>
+              <span className="text-[11px] font-mono opacity-60">Category 01</span>
               <span className="font-bold flex items-center justify-between w-full">
                 <span>Annual Reports</span>
                 <span className="text-[8px] font-mono bg-brand-red/10 px-1.5 py-0.5 rounded-sm">Release Active</span>
@@ -135,13 +135,13 @@ function Documents() {
             
             <button
               onClick={() => setActiveTab('quarterly')}
-              className={`text-left p-4 rounded-xs border font-condensed font-bold text-xs sm:text-sm uppercase tracking-wide transition-all cursor-pointer focus:outline-none flex flex-col justify-between gap-1 min-h-[84px] ${
+              className={`text-left p-4 rounded-xs border font-condensed font-bold text-sm sm:text-sm uppercase tracking-wide transition-all cursor-pointer focus:outline-none flex flex-col justify-between gap-1 min-h-[84px] ${
                 activeTab === 'quarterly'
                   ? 'border-brand-red bg-brand-red/5 text-[#B8001F] shadow-xs'
                   : 'border-brand-border bg-white text-brand-black hover:bg-brand-sand/50'
               }`}
             >
-              <span className="text-[9px] font-mono opacity-60">Category 02</span>
+              <span className="text-[11px] font-mono opacity-60">Category 02</span>
               <span className="font-bold flex items-center justify-between w-full">
                 <span>Quarterly Statements</span>
                 <span className="text-[8px] font-mono bg-emerald-50 text-emerald-700 px-1.5 py-0.5 rounded-sm">FY 2081/82</span>
@@ -150,13 +150,13 @@ function Documents() {
 
             <button
               onClick={() => setActiveTab('ipo')}
-              className={`text-left p-4 rounded-xs border font-condensed font-bold text-xs sm:text-sm uppercase tracking-wide transition-all cursor-pointer focus:outline-none flex flex-col justify-between gap-1 min-h-[84px] ${
+              className={`text-left p-4 rounded-xs border font-condensed font-bold text-sm sm:text-sm uppercase tracking-wide transition-all cursor-pointer focus:outline-none flex flex-col justify-between gap-1 min-h-[84px] ${
                 activeTab === 'ipo'
                   ? 'border-brand-red bg-brand-red/5 text-[#B8001F] shadow-xs'
                   : 'border-brand-border bg-white text-brand-black hover:bg-brand-sand/50'
               }`}
             >
-              <span className="text-[9px] font-mono opacity-60">Category 03</span>
+              <span className="text-[11px] font-mono opacity-60">Category 03</span>
               <span className="font-bold flex items-center justify-between w-full">
                 <span>IPO Filings</span>
                 <span className="text-[8px] font-mono bg-[#D4A017]/10 text-[#D4A017] px-1.5 py-0.5 rounded-sm">Coming Soon</span>
@@ -165,13 +165,13 @@ function Documents() {
 
             <button
               onClick={() => setActiveTab('notices')}
-              className={`text-left p-4 rounded-xs border font-condensed font-bold text-xs sm:text-sm uppercase tracking-wide transition-all cursor-pointer focus:outline-none flex flex-col justify-between gap-1 min-h-[84px] ${
+              className={`text-left p-4 rounded-xs border font-condensed font-bold text-sm sm:text-sm uppercase tracking-wide transition-all cursor-pointer focus:outline-none flex flex-col justify-between gap-1 min-h-[84px] ${
                 activeTab === 'notices'
                   ? 'border-brand-red bg-brand-red/5 text-[#B8001F] shadow-xs'
                   : 'border-brand-border bg-white text-brand-black hover:bg-brand-sand/50'
               }`}
             >
-              <span className="text-[9px] font-mono opacity-60">Category 04</span>
+              <span className="text-[11px] font-mono opacity-60">Category 04</span>
               <span className="font-bold flex items-center justify-between w-full">
                 <span>Advisory Notices</span>
                 <span className="text-[8px] font-mono bg-blue-50 text-blue-700 px-1.5 py-0.5 rounded-sm">Statutory</span>
@@ -188,14 +188,14 @@ function Documents() {
             <h3 className="font-serif text-2xl font-extrabold text-brand-black leading-tight">
               {activeGroup.title}
             </h3>
-            <p className="text-xs text-brand-muted leading-relaxed font-sans font-normal mt-2">
+            <p className="text-sm text-brand-muted leading-relaxed font-sans font-normal mt-2">
               {activeGroup.desc}
             </p>
           </div>
 
           {/* Section: Available / Downloadable Documents */}
           <div className="space-y-4">
-            <h4 className="font-condensed font-bold text-xs uppercase tracking-wider text-brand-black flex items-center gap-2">
+            <h4 className="font-condensed font-bold text-sm uppercase tracking-wider text-brand-black flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-[#B8001F] rounded-full" />
               Published Disclosures (Interactive Download)
             </h4>
@@ -212,7 +212,7 @@ function Documents() {
                         <FileText size={20} />
                       </div>
                       <div className="space-y-0.5 min-w-0 flex-1">
-                        <span className="block text-brand-black font-semibold text-xs leading-snug truncate group-hover:text-[#B8001F] transition-colors" title={doc.title}>
+                        <span className="block text-brand-black font-semibold text-sm leading-snug truncate group-hover:text-[#B8001F] transition-colors" title={doc.title}>
                           {doc.title}
                         </span>
                         <div className="flex items-center gap-2 text-[10px] text-brand-muted font-mono uppercase tracking-wide">
@@ -259,7 +259,7 @@ function Documents() {
 
           {/* Section: Upcoming Documents */}
           <div className="space-y-4 pt-4 border-t border-brand-border/30">
-            <h4 className="font-condensed font-bold text-xs uppercase tracking-wider text-brand-black flex items-center gap-2">
+            <h4 className="font-condensed font-bold text-sm uppercase tracking-wider text-brand-black flex items-center gap-2">
               <span className="w-1.5 h-1.5 bg-[#D4A017] rounded-full" />
               Upcoming Documents / In-Review Schedules
             </h4>
@@ -268,14 +268,14 @@ function Documents() {
               {activeGroup.upcomingDocs.map((doc, idx) => (
                 <div 
                   key={idx} 
-                  className="border border-amber-200 bg-amber-50/20 p-4 rounded-xs flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-xs"
+                  className="border border-amber-200 bg-amber-50/20 p-4 rounded-xs flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-sm"
                 >
                   <div className="flex items-start sm:items-center gap-3">
                     <div className="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center flex-shrink-0 text-[#D4A017]">
                       <Calendar size={15} />
                     </div>
                     <div>
-                      <span className="block text-brand-black font-semibold leading-snug text-xs">
+                      <span className="block text-brand-black font-semibold leading-snug text-sm">
                         {doc.title}
                       </span>
                       <p className="text-[11px] text-[#A17A0E] mt-0.5 leading-normal">
@@ -285,7 +285,7 @@ function Documents() {
                   </div>
 
                   <div className="flex-shrink-0 self-start sm:self-center">
-                    <span className="inline-block text-[9px] font-mono font-bold uppercase bg-amber-100/60 text-[#A17A0E] border border-amber-200/50 px-2.5 py-1 rounded-sm">
+                    <span className="inline-block text-[11px] font-mono font-bold uppercase bg-amber-100/60 text-[#A17A0E] border border-amber-200/50 px-2.5 py-1 rounded-sm">
                       Under Review
                     </span>
                   </div>

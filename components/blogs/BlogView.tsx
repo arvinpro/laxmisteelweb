@@ -49,7 +49,7 @@ export default function BlogView() {
           <div className="inline-flex bg-white p-1 border border-brand-border rounded-xs shadow-xs">
             <button
               onClick={() => setLocalSubView("articles")}
-              className={`px-8 py-3 font-condensed font-bold text-xs uppercase tracking-wider rounded-xs transition-colors cursor-pointer focus:outline-none ${
+              className={`px-8 py-3 font-condensed font-bold text-sm uppercase tracking-wider rounded-xs transition-colors cursor-pointer focus:outline-none ${
                 localSubView === "articles"
                   ? "bg-[#B8001F] text-white shadow-xs"
                   : "text-brand-black hover:bg-brand-sand/50"
@@ -59,7 +59,7 @@ export default function BlogView() {
             </button>
             <button
               onClick={() => setLocalSubView("faqs")}
-              className={`px-8 py-3 font-condensed font-bold text-xs uppercase tracking-wider rounded-xs transition-colors cursor-pointer focus:outline-none ${
+              className={`px-8 py-3 font-condensed font-bold text-sm uppercase tracking-wider rounded-xs transition-colors cursor-pointer focus:outline-none ${
                 localSubView === "faqs"
                   ? "bg-[#B8001F] text-white shadow-xs"
                   : "text-brand-black hover:bg-brand-sand/50"
@@ -82,7 +82,7 @@ export default function BlogView() {
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
-                className={`px-4 py-2 rounded-xs text-xs uppercase font-bold transition ${
+                className={`px-4 py-2 rounded-xs text-sm uppercase font-bold transition ${
                   activeCategory === category
                     ? "bg-brand-red text-white"
                     : "border border-brand-border hover:bg-brand-sand"

@@ -15,7 +15,7 @@ function MissionVisionFocus() {
               OUR MISSION
             </h3>
 
-            <ul className="space-y-3.5 text-xs text-brand-muted font-semibold leading-relaxed">
+            <ul className="space-y-3.5 text-sm text-brand-muted font-semibold leading-relaxed">
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-brand-red rounded-full flex-shrink-0" />
                 <span>
@@ -51,7 +51,7 @@ function MissionVisionFocus() {
               OUR VISION
             </h3>
 
-            <ul className="space-y-3.5 text-xs text-brand-muted font-semibold leading-relaxed">
+            <ul className="space-y-3.5 text-sm text-brand-muted font-semibold leading-relaxed">
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-brand-red rounded-full flex-shrink-0" />
                 <span>Globally respected steel manufacturer from Nepal.</span>
@@ -80,7 +80,7 @@ function MissionVisionFocus() {
             <h3 className="font-condensed font-extrabold text-lg tracking-wider text-brand-black uppercase">
               OUR VALUES
             </h3>
-            <ul className="space-y-3.5 text-xs text-brand-muted font-semibold leading-relaxed">
+            <ul className="space-y-3.5 text-sm text-brand-muted font-semibold leading-relaxed">
               <li className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-brand-red rounded-full" />
                 <span>
