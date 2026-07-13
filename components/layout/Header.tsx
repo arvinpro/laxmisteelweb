@@ -89,7 +89,7 @@ export default function Header() {
               </a>
               <div className="flex items-center gap-1.5 text-gray-300">
                 <MapPin size={11} className="text-brand-skytext" />
-                <span>Neupane Tower, Subidhanagar, Kathmandu</span>
+                <span>Neupane Tower 3rd Floor, Subidhanagar, Kathmandu</span>
               </div>
             </div>
 

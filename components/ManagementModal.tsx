@@ -5,6 +5,7 @@ import { X, User, Briefcase, Award, GraduationCap } from 'lucide-react';
 import { TeamMember } from '@/types/types';
 import { motion, AnimatePresence } from 'motion/react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ManagementModalProps {
   member: TeamMember | null;
@@ -157,7 +158,7 @@ export default function ManagementModal({ member, onClose }: ManagementModalProp
                       <span>Group Affiliation</span>
                     </h6>
                     <p className="text-xs text-gray-400 leading-normal">
-                      Coordinating executive plans under Saurabh Group conglomerates, integrating steel supply lines smoothly for massive high-value national projects.
+                      Coordinating executive plans under <span className="text-red-500"><Link href="https://saurabhgroup.com/" target="_blank" rel="noopener noreferrer">Saurabh Group</Link></span> conglomerates, integrating steel supply lines smoothly for massive high-value national projects.
                     </p>
                   </div>
                 </motion.div>

@@ -18,7 +18,7 @@ function About() {
                     </h2>
                     <div className="space-y-4 text-justify text-sm md:text-base text-brand-muted leading-relaxed">
                       <p>
-                        Laxmi Steels Limited is established with the strict corporate mandate of reinforcing the building security guidelines of our country. Operating as a hallmark brand under the elite Saurabh Group, our heavy rolling plant in Nawalparasi coordinates precision engineering models to secure safe foundations.
+                        Laxmi Steels Limited is established with the strict corporate mandate of reinforcing the building security guidelines of our country. Operating as a hallmark brand under the elite <span className="text-[#B8001F] hover:text-[#B8001F]/70 underline transition ease-in-out"><Link href="https://saurabhgroup.com/" target="_blank" rel="noopener noreferrer">Saurabh Group</Link></span>, our heavy rolling plant in Nawalparasi coordinates precision engineering models to secure safe foundations.
                       </p>
                       <p>
                         By blending certified raw iron billets with German Thermex thermal quenching technology, we roll structural rebar rods that absorb displacement tension loads during tremors. This uncompromised commitment defines our legacy throughout all 7 provinces of Nepal.
@@ -42,7 +42,7 @@ function About() {
                         <div className="bg-brand-red text-white p-3 inline-block rounded-xs">
                            <Landmark size={24} />
                         </div>
-                        <h3 className="text-lg font-bold">A Saurabh Group Conglomerate</h3>
+                        <h3 className="text-lg font-bold">A <span className="hover:text-[#B8001F] hover:underline transition ease-in-out"><Link href="https://saurabhgroup.com/" target="_blank" rel="noopener noreferrer">Saurabh Group</Link></span> Conglomerate</h3>
                         <p className="text-sm text-brand-muted leading-relaxed">
                           Supporting Nepal’s macro-industrial development across steel, heavy cement manufacturing, trading logistics and corporate financial resources.
                         </p>
