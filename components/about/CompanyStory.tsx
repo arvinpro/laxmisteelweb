@@ -1,4 +1,5 @@
 import { Award } from "lucide-react"
+import Link from "next/link";
 
 function CompanyStory() {
   return (
@@ -20,7 +21,7 @@ function CompanyStory() {
 
           <div className="space-y-4 text-xs text-justify md:text-base text-brand-muted leading-relaxed">
             <p>
-              Founded in 2008 as a prominent pillar of the elite Saurabh Group,
+              Founded in 2008 as a prominent pillar of the elite <span className="text-[#B8001F] underline"><Link href="https://saurabhgroup.com/" target="_blank" rel="noopener noreferrer">Saurabh Group</Link></span>,
               Laxmi Steels Limited emerged with a distinct, patriotic vision: to
               satisfy Nepal's rapidly growing infrastructure demands with
               locally manufactured, high-yield earthquake-resistant steel.
@@ -52,7 +53,7 @@ function CompanyStory() {
             <div className="space-y-4">
               <Award className="text-brand-red" size={32} />
               <h3 className="font-serif text-lg font-bold text-brand-black">
-                Part of the Saurabh Group
+                Part of the <span className="hover:text-[#B8001F] hover:underline transition ease-in-out"><Link href="https://saurabhgroup.com/" target="_blank" rel="noopener noreferrer">Saurabh Group</Link></span>
               </h3>
               <p className="text-base text-brand-muted leading-relaxed">
                 Operating multi-sector manufacturing clusters throughout Nepal.

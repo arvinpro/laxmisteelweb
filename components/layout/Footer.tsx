@@ -92,7 +92,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href={"/projects"} className="hover:text-brand-red transition-colors text-left focus:outline-none cursor-pointer">
+              <Link href={"/project"} className="hover:text-brand-red transition-colors text-left focus:outline-none cursor-pointer">
                 Mega Projects
               </Link>
             </li>
@@ -162,7 +162,7 @@ export default function Footer() {
               <MapPin size={18} className="text-brand-red mt-0.5 flex-shrink-0" />
               <div>
                 <span className="block font-semibold text-white text-xs uppercase tracking-wider">HEAD OFFICE</span>
-                <span className="text-gray-400">Neupane Tower, Subidhanagar, Kathmandu, Nepal</span>
+                <span className="text-gray-400">Neupane Tower 3rd Floor, Subidhanagar, Kathmandu, Nepal</span>
               </div>
             </li>
             <li className="flex items-start gap-2.5">
@@ -175,7 +175,7 @@ export default function Footer() {
             <li className="flex items-start gap-2.5">
               <Phone size={18} className="text-brand-red mt-0.5 flex-shrink-0" />
               <div>
-                <span className="block font-semibold text-white text-xs uppercase tracking-wider font-mono">+977-1-4412351 / 4412352</span>
+                <span className="block font-semibold text-white text-xs uppercase tracking-wider font-mono">01-4111571 / 01-4111567</span>
               </div>
             </li>
             <li className="flex items-start gap-2.5">
@@ -196,7 +196,11 @@ export default function Footer() {
           <div className="flex items-center gap-1">
             <span>A proud unit of</span>
             <span className="font-semibold text-white tracking-widest font-condensed uppercase text-sm border-b border-brand-red ml-1">
-              Saurabh Group
+              <span className="hover:text-[#B8001F] transition ease-in-out">
+                <Link href="https://saurabhgroup.com/" target="_blank" rel="noopener noreferrer">
+                  Saurabh Group
+                </Link>
+              </span>
             </span>
           </div>
         </div>
