@@ -1,7 +1,7 @@
 "use client";
 
 import Image, { StaticImageData } from "next/image";
-import { ChevronRight, Maximize2, X } from "lucide-react";
+import { Maximize2, X } from "lucide-react";
 import { useState } from "react";
 import Breadcrumb from "../ui/Breadcrumb";
 function GalleryView() {
@@ -12,21 +12,29 @@ function GalleryView() {
     title: string;
     image: string | StaticImageData;
   }
-  const GALLERY_IMAGES: GalleryItem[] = [
-    // Company Images (39)
-    ...Array.from({ length: 39 }, (_, i) => ({
-      id: `c${i + 1}`,
-      title: `Company Image ${i + 1}`,
-      image: `/company/dccc (${i + 1}).jpg`,
+
+  const removedCompanyImages = [3,4,5,18,19,36,23,25,26,33,32,16,38];
+const removedProjectImages = [3, 8,12,9,11];
+
+const GALLERY_IMAGES: GalleryItem[] = [
+  // Company Images
+  ...Array.from({ length: 39 }, (_, i) => i + 1)
+    .filter((num) => !removedCompanyImages.includes(num))
+    .map((num) => ({
+      id: `c${num}`,
+      title: `Company Image ${num}`,
+      image: `/company/dccc (${num}).jpg`,
     })),
 
-    // Project Images (17)
-    ...Array.from({ length: 17 }, (_, i) => ({
-      id: `p${i + 1}`,
-      title: `Project Image ${i + 1}`,
-      image: `/project/image1 (${i + 1}).jpeg`,
+  // Project Images
+  ...Array.from({ length: 17 }, (_, i) => i + 1)
+    .filter((num) => !removedProjectImages.includes(num))
+    .map((num) => ({
+      id: `p${num}`,
+      title: `Project Image ${num}`,
+      image: `/project/image1 (${num}).jpeg`,
     })),
-  ];
+];
 
   return (
     <section id="gallery-view-section">
