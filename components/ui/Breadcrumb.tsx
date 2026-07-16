@@ -41,7 +41,7 @@ export default function Breadcrumb() {
         <li className="flex items-center gap-1.5">
           <Link
             href="/"
-            className="text-red-600 transition-colors hover:text-white"
+            className="text-red-600 transition-colors hover:text-white uppercase"
           >
             Home
           </Link>
@@ -58,7 +58,7 @@ export default function Breadcrumb() {
           return (
             <li
               key={href}
-              className="flex items-center gap-1.5"
+              className="flex items-center gap-1.5 uppercase"
             >
               {isLast ? (
                 <span
