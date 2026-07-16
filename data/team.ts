@@ -81,7 +81,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: '8',
     name: 'Mr. Nav Raj Kharel',
-    title: 'Manager, Sales & Marketing',
+    title: 'General Manager, Sales & Marketing',
     category: 'sales',
     bio: '20+ years of dedicated experience driving commercial dealer networks and B2B distributions of construction metals throughout seven provinces.',
     longBio: 'Mr. Nav Raj Kharel is a heavyweight in sales strategies, possessing more than 20 years of hands-on experience in the Nepalese heavy industrial sector. He operates Laxmi Steels\' multi-hundred dealer channel, and maintains key trade relationships with authorized retailers from Biratnagar to Mahendranagar.',

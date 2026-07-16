@@ -72,7 +72,7 @@ function HighLevelBusinessComp() {
                   </div>
                 </div>
 
-                <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-sm">
+                {/* <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4 text-sm">
                   <span className="text-brand-muted font-sans">
                     Want to see complete metallurgical test statistics, carbon
                     chemistry specs, and deep structural parameters?
@@ -84,7 +84,7 @@ function HighLevelBusinessComp() {
                     <span>Read Fe 500 vs Fe 500D Comparison</span>
                     <ChevronRight size={12} />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
     </section>

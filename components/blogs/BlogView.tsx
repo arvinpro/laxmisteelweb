@@ -45,7 +45,7 @@ export default function BlogView() {
         </div>
 
         {/* SUB-NAVIGATION TABS */}
-        <div className="max-w-7xl mx-auto px-4 md:px-8 pt-10 text-center select-none">
+        {/* <div className="max-w-7xl mx-auto px-4 md:px-8 pt-10 text-center select-none">
           <div className="inline-flex bg-white p-1 border border-brand-border rounded-xs shadow-xs">
             <button
               onClick={() => setLocalSubView("articles")}
@@ -68,7 +68,7 @@ export default function BlogView() {
               FAQ Hub
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* FEATURED POST */}
         {localSubView === "articles" && activeCategory === "All" && (
