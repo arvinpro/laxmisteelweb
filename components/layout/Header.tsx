@@ -124,9 +124,9 @@ export default function Header() {
 
               <div className="flex items-center gap-2 text-white">
                 {[
-                  { href: 'https://www.facebook.com/profile.php?id=100065564496445', icon: <FaFacebook size={15} />, label: 'Facebook' },
-                  { href: 'https://linkedin.com', icon: <FaLinkedin size={15} />, label: 'LinkedIn' },
-                  { href: 'https://youtu.be/2xdR0_SrskE?si=fsWSrayRP5g_XwZm', icon: <FaYoutube size={15} />, label: 'YouTube' },
+                  { href: 'https://www.facebook.com/LaxmiSteelsLimited', icon: <FaFacebook size={15} />, label: 'Facebook' },
+                  { href: 'https://www.linkedin.com/company/laxmi-steels-private-limited/', icon: <FaLinkedin size={15} />, label: 'LinkedIn' },
+                  { href: 'https://www.youtube.com/@laxmisteelslimited', icon: <FaYoutube size={15} />, label: 'YouTube' },
                   // { href: 'https://instagram.com', icon: <FaInstagram size={15} />, label: 'Instagram' },
                 ].map(({ href, icon, label }) => (
                   <a

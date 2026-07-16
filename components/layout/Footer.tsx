@@ -92,21 +92,21 @@ export default function Footer() {
 
           <div className="flex items-center gap-3 pt-2">
             <a
-              href="https://www.facebook.com/profile.php?id=100065564496445c"
+              href="https://www.facebook.com/LaxmiSteelsLimited"
               className="bg-brand-black/50 hover:bg-brand-red p-2.5 rounded-sm text-white transition-all hover:scale-105"
               aria-label="Facebook"
             >
               <FaFacebook size={18} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/company/laxmi-steels-private-limited/"
               className="bg-brand-black/50 hover:bg-brand-red p-2.5 rounded-sm text-white transition-all hover:scale-105"
               aria-label="LinkedIn"
             >
               <FaLinkedin size={18} />
             </a>
             <a
-              href="https://youtu.be/2xdR0_SrskE?si=fsWSrayRP5g_XwZm"
+              href="https://www.youtube.com/@laxmisteelslimited"
               className="bg-brand-black/50 hover:bg-brand-red p-2.5 rounded-sm text-white transition-all hover:scale-105"
               aria-label="YouTube"
             >

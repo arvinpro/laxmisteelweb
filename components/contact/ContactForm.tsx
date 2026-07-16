@@ -64,10 +64,10 @@ function ContactForm() {
               <span className="block font-condensed font-black text-sm tracking-widest text-brand-red uppercase">HEAD OFFICE</span>
               <h4 className="font-serif text-lg font-bold text-brand-black">Kathmandu Headquarters</h4>
               <p className="text-sm text-brand-muted leading-relaxed">
-                Neupane Tower, 3rd Floor, Subidhanagar, Kathmandu, Nepal
+                Neupane Tower 3rd Floor, Subidhanagar, Kathmandu, Nepal
               </p>
               <div className="text-sm text-brand-black font-semibold pt-1">
-                Phone: +977-1-4412351 / 4412352
+                01-4111571 | 01-4111567
               </div>
             </div>
           </div>
@@ -109,10 +109,9 @@ function ContactForm() {
             <span className="block font-condensed font-black text-sm text-brand-black tracking-wider uppercase">Institutional Channels</span>
             <p className="text-sm text-brand-muted leading-normal">Follow Laxmi Steels on official socio-corporate platforms for recent compliance dispatches and group milestones.</p>
             <div className="flex flex-wrap gap-2 text-sm font-mono">
-              <Link href="www.facebook.com" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">LinkedIn</Link>
-              <Link href="www.facebook.com" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">Facebook</Link>
-              <Link href="www.facebook.com" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">Instagram</Link>
-              <Link href="www.facebook.com" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">YouTube</Link>
+              <Link href="https://www.linkedin.com/company/laxmi-steels-private-limited/" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">LinkedIn</Link>
+              <Link href="https://www.facebook.com/LaxmiSteelsLimited" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">Facebook</Link>
+              <Link href="https://www.youtube.com/@laxmisteelslimited" className="bg-white border border-brand-border px-3 py-1.5 font-semibold text-brand-black hover:bg-brand-red/10">YouTube</Link>
             </div>
           </div>
 

@@ -84,7 +84,7 @@ export default function ManagementModal({ member, onClose }: ManagementModalProp
                     ) : (
                       <User size={42} className="opacity-80" />
                     )}
-                    <div className="absolute bottom-1 right-1 w-3 h-3 bg-brand-red rounded-full ring-2 ring-brand-nearblack" />
+                    {/* <div className="absolute bottom-1 right-1 w-3 h-3 bg-brand-red rounded-full ring-2 ring-brand-nearblack" /> */}
                   </div>
 
                   <div>
@@ -96,7 +96,7 @@ export default function ManagementModal({ member, onClose }: ManagementModalProp
                     </p>
                     <div className="mt-3 flex items-center gap-2">
                       <span className="text-[10px] font-mono tracking-widest uppercase bg-brand-red/10 border border-brand-red/30 px-2.5 py-0.5 text-brand-red">
-                        {member.category === 'board' ? 'Board Of Directors' : 'Executive Management'}
+                        {member.division} division
                       </span>
                     </div>
                   </div>
