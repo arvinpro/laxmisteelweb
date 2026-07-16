@@ -96,7 +96,7 @@ export default function ManagementModal({ member, onClose }: ManagementModalProp
                     </p>
                     <div className="mt-3 flex items-center gap-2">
                       <span className="text-[10px] font-mono tracking-widest uppercase bg-brand-red/10 border border-brand-red/30 px-2.5 py-0.5 text-brand-red">
-                        {member.division} division
+                        {member.division}
                       </span>
                     </div>
                   </div>
