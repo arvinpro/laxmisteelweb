@@ -210,9 +210,7 @@ function Team() {
                 <div className="flex-1 space-y-2">
                   <div className="flex items-center justify-center sm:justify-between">
                     <span className="inline-block text-[8px] uppercase bg-brand-border/40 text-brand-black/80 px-2 py-0.5 rounded-full tracking-wider font-semibold">
-                      {member.category === "sales"
-                        ? "Commercial Division"
-                        : "Plant Operations"}
+                      {member.division} division
                     </span>
                   </div>
                   <div>

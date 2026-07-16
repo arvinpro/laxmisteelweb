@@ -19,6 +19,7 @@ export interface TeamMember {
   name: string;
   title: string;
   category: 'board' | 'management' | 'ops' | 'sales';
+  division: string,
   bio: string;
   longBio?: string;
   imageAlt?: string;

@@ -13,7 +13,7 @@ function GalleryView() {
     image: string | StaticImageData;
   }
 
-  const removedCompanyImages = [3,4,5,18,19,36,23,25,26,33,32,16,38,34,31];
+  const removedCompanyImages = [3,4,5,18,19,36,23,25,26,33,32,16,38,34,31,9,11,27,1,22,24,30];
 const removedProjectImages = [3, 8,12,9,11];
 
 const GALLERY_IMAGES: GalleryItem[] = [
