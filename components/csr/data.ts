@@ -17,7 +17,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Sanitation",
     remarks: "Sanitation",
     image:
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+      "/csr/publictoilet.jpg",
     desc: "Facilitating hygienic municipal infrastructure. Partnered with Sunwal Municipality to erect public conveniences with complete modern sanitation blocks at the busy Sunwal Chowk.",
   },
   {
@@ -27,7 +27,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Religious Infrastructure",
     remarks: "Religious Infrastructure",
     image:
-      "https://images.unsplash.com/photo-1609137144813-7d722ef87af2?auto=format&fit=crop&w=800&q=80",
+      "/csr/radhakrishnatemple.jpg",
 
     desc: "Preserving local spiritual culture. Funded the architectural masonry, stone paving, and serene surrounding boundary construction of Radha Krishna Temple in Ramwapur.",
   },
@@ -49,8 +49,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Religious Infrastructure",
     remarks: "Religious Infrastructure",
     image:
-      "https://images.unsplash.com/photo-1616843413587-9e3a37f7bbd8?auto=format&fit=crop&w=800&q=80",
-
+      "/csr/renovationtemple.jpg",
     desc: "Restoring regional cultural heritage. Undertook structural reinforcement of the walls, columns, and heritage tiled roofings of the central Siseni community temple.",
   },
   {
@@ -60,7 +59,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Sports",
     remarks: "Sports",
     image:
-      "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&q=80",
+      "/csr/footballtournament.jpeg",
 
     desc: "Promoting local sports and coordination. Sponsored team kits, shields, and ground preparations for the annual municipal running-shield tournament.",
   },
@@ -71,7 +70,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Sports",
     remarks: "Sports",
     image:
-      "https://images.unsplash.com/photo-1544698310-74ea9d1c8258?auto=format&fit=crop&w=800&q=80",
+      "/csr/u16youthdivision.jpg",
     desc: "Sustaining grassroots youth football. Provided comprehensive athletic materials, training resources, and matches support for the Nawalparasi youth division.",
   },
   {
@@ -81,7 +80,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Health & Social Welfare",
     remarks: "Health & Social Welfare",
     image:
-      "https://images.unsplash.com/photo-1615461066841-6116ecd9978a?auto=format&fit=crop&w=800&q=80",
+      "/csr/blood donation.jpeg",
     localImage: "blooddonation",
     desc: "Securing life-saving resources. Coordinated with the Nepal Red Cross to organize continuous bi-annual donation camps hosted fully within our heavy rolling mill compound.",
   },
@@ -92,7 +91,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Sports",
     remarks: "Sports",
     image:
-      "https://images.unsplash.com/photo-1592656094267-764a45157575?auto=format&fit=crop&w=800&q=80",
+      "/csr/volleyball.jpg",
     desc: "Advancing inter-campus sportsmanship. Contributed physical sports materials, referees support, and cash prizes for students of Devdaha Adarsha Campus.",
   },
   {
@@ -102,7 +101,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Sanitation",
     remarks: "Sanitation",
     image:
-      "https://images.unsplash.com/photo-1564540574859-0dfb63985953?auto=format&fit=crop&w=800&q=80",
+      "/csr/publictoiletmagaracco.jpg",
     desc: "Expanding municipal sanitation coverage. Collaborated closely with the Nepal Magar Association to provide hygienic community restroom blocks with solar lights.",
   },
   {
@@ -124,8 +123,8 @@ export const csrActivities: CSRRegistryItem[] = [
       "Sunwal-7, through Drinking Water and Sanitation Consumer Organization",
     category: "Health",
     remarks: "Health",
-    image:
-      "https://images.unsplash.com/photo-1579684389781-71d0eec9a611?auto=format&fit=crop&w=800&q=80",
+    image: "/csr/eyecamp.jpg",
+      
     desc: "Broadening regional health outreach. Partnered with drinking water groups to fund medical eye testing clinics, checking over 180 residents and offering free cataract guidance.",
   },
   {
@@ -135,7 +134,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Environmental Conservation",
     remarks: "Environmental Conservation",
     image:
-      "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80",
+      "/csr/env day.jpeg",
     desc: "Enhancing the industrial green corridor. Spearheaded intensive broad-leaved evergreen plantation and fencing works along standard pathways leading to our main rolling plant.",
   },
   {
@@ -145,7 +144,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Education",
     remarks: "Education",
     image:
-      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80",
+      "/csr/disturbationofbags.jpg",
     desc: "Equitting under-privileged children. Provided high-durability school backpacks, calculators, and curriculum textbook bundles directly to students of Janajyoti school.",
   },
   {
@@ -155,7 +154,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Infrastructure Development",
     remarks: "Infrastructure Development",
     image:
-      "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?auto=format&fit=crop&w=800&q=80",
+      "/csr/pavedroad.jpeg",
     desc: "Constructing robust neighborhood conduits. Supported the structural laying of durable gravel and paved paths in Sunwal Ward 7 to facilitate community farming haulage.",
   },
   {
@@ -166,8 +165,7 @@ export const csrActivities: CSRRegistryItem[] = [
     category: "Community Development & Public Safety",
     remarks: "Community Development & Public Safety",
     image:
-      "https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=800&q=80",
-    localImage: "streetlights",
+      "/csr/streetlight.jpeg",
     desc: "Illuminating community pathways. Erected modern LED streetlighting poles along ward paths to reinforce public safety and secure late-evening pedestrian commutes.",
   },
 ];

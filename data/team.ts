@@ -120,7 +120,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: 'Mr. Surendra Tiwari',
     title: 'Project Head',
     category: 'ops',
-    division: "Project Management Division",
+    division: "Manufacturing Division",
     bio: 'MBA holder with 15+ years of large-scale manufacturing management, ensuring absolute adherence to safety and operational schedules.',
     longBio: 'Mr. Surendra Tiwari holds an MBA and has dedicated 15 years to coordinating structural expansions. He directs greenfield setups, furnace installation, civil building planning inside the Nawalparasi complex, and ensures mechanical installations meet severe technological protocols.',
     image: surendra
