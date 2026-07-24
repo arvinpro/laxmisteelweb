@@ -11,7 +11,7 @@ function ContactView() {
       {/* Page Hero */}
       <div 
         className="relative bg-neutral-950 text-white pt-44 pb-20 md:pt-52 md:pb-24 px-4 md:px-8 border-b border-brand-red/20 overflow-hidden select-none bg-cover bg-center"
-        style={{ backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.65) 45%, rgba(184, 0, 31, 0.25) 100%), url("/company/contact.jpg")` }}
+        style={{ backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.65) 45%, rgba(184, 0, 31, 0.25) 100%), url("/company-webp/contact.webp")` }}
       >
         <div className="absolute inset-0 bg-black/40" />
         <div className="max-w-7xl mx-auto relative z-10 text-center space-y-4">

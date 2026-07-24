@@ -58,7 +58,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: '5',
     name: 'Ms. Aashna Agrawal',
-    title: 'Director',
+    title: 'Independent Director',
     category: 'board',
     division: "Board of Directors",
     bio: '6+ years of strategic management experience in heavy trading and large-scale manufacturing sectors, defining modern talent and brand guidelines.',

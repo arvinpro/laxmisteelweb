@@ -11,7 +11,7 @@ function ProductView() {
       <div
         className="relative bg-neutral-950 pt-44 pb-20 md:pt-52 md:pb-24 px-4 md:px-8 overflow-hidden border-b border-brand-red/20 bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.60) 45%, rgba(184, 0, 31, 0.25) 100%), url("/company/banner.jpg")`,
+          backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.60) 45%, rgba(184, 0, 31, 0.25) 100%), url("/company-webp/banner.webp")`,
         }}
       >
         <div className="absolute inset-0 bg-black/40" />

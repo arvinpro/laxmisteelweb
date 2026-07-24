@@ -112,7 +112,7 @@ function Products() {
                         {/* Image frame */}
                         <div className="relative h-48 w-full overflow-hidden bg-neutral-900">
                           <img 
-                            src="https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=800" 
+                            src="https://media.istockphoto.com/id/1332073144/photo/workers-hold-steel-wire.webp?a=1&b=1&s=612x612&w=0&k=20&c=cduXx54loZIovIoR78Fcc3oJ0831zRQKXHJAI8Jdkx0=" 
                             alt="High-Tensile Binding Wire" 
                             className="w-full h-full object-cover grayscale contrast-[110%] transition-transform duration-700 group-hover:scale-105 group-hover:grayscale-0 brightness-90 group-hover:brightness-100"
                             referrerPolicy="no-referrer"
