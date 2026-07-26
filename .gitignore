@@ -57,3 +57,10 @@ next-env.d.ts
 
 # OS
 Desktop.ini
+# OpenNext
+.open-next
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
