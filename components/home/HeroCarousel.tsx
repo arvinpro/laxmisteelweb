@@ -3,13 +3,13 @@
 import React, { useState, useEffect, useCallback } from "react";
 
 const IMAGES = [
-  "/company/dccc (8).jpg",
-  "/company/dccc (5).jpg",
-  "/company/dccc (15).jpg",
-  "/company/dccc (29).jpg",
-  "/company/dccc (20).jpg",
-  "/company/dccc (13).jpg",
-  "/company/dccc (7).jpg",
+  "/company-webp/dccc (8).webp",
+  "/company-webp/dccc (5).webp",
+  "/company-webp/dccc (15).webp",
+  "/company-webp/dccc (29).webp",
+  "/company-webp/dccc (20).webp",
+  "/company-webp/dccc (13).webp",
+  "/company-webp/dccc (7).webp",
 ];
 
 const INTERVAL_MS = 4500;

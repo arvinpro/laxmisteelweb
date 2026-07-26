@@ -23,7 +23,7 @@ const GALLERY_IMAGES: GalleryItem[] = [
     .map((num) => ({
       id: `c${num}`,
       title: `Company Image ${num}`,
-      image: `/company/dccc (${num}).jpg`,
+      image: `/company-webp/dccc (${num}).webp`,
     })),
 
   // Project Images
@@ -43,7 +43,7 @@ const GALLERY_IMAGES: GalleryItem[] = [
         <div
           className="relative bg-neutral-950 text-white pt-44 pb-20 md:pt-52 md:pb-24 px-4 md:px-8 border-b border-brand-red/20 overflow-hidden bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.50) 30%, rgba(184, 0, 31, 0.45) 100%), url("/company/dccc (9).jpg")`,
+            backgroundImage: `linear-gradient(to right, rgba(0, 0, 0, 0.50) 30%, rgba(184, 0, 31, 0.45) 100%), url("/company-webp/dccc (9).webp")`,
           }}
         >
           <div className="absolute inset-0 bg-black/40" />
@@ -115,7 +115,7 @@ const GALLERY_IMAGES: GalleryItem[] = [
                   alt={selectedItem.title}
                   fill
                   sizes="100vw"
-                  className="w-full h-fullobject-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>

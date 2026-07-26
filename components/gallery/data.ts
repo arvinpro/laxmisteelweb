@@ -10,7 +10,7 @@ export const GALLERY_IMAGES: GalleryItem[] = [
   ...Array.from({ length: 39 }, (_, i) => ({
     id: `c${i + 1}`,
     title: `Company Image ${i + 1}`,
-    image: `/company/dccc (${i + 1}).jpg`,
+    image: `/company-webp/dccc (${i + 1}).webp`,
   })),
 
   // Project Images (17)

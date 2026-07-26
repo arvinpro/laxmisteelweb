@@ -74,7 +74,7 @@ function ManufactureProcess() {
           className="relative bg-neutral-950 text-white py-24 md:py-28 px-4 md:px-8 overflow-hidden bg-cover bg-center"
           style={{
             backgroundImage:
-              `linear-gradient(to right, rgba(0, 0, 0, 0.65) 45%, rgba(184, 0, 31, 0.25) 100%), url("/company/dccc (34).jpg")`,
+              `linear-gradient(to right, rgba(0, 0, 0, 0.65) 45%, rgba(184, 0, 31, 0.25) 100%), url("/company-webp/dccc (34).webp")`,
           }}
         >
           <div className="absolute inset-0 bg-black/40" />
